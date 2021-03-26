@@ -1,14 +1,15 @@
 <p align="center">
-<img src="https://brand.github.com/assets/images/logos/github-india-black.png" width="200">
+<img src="assets/india_invertocat.png" width="150">
 </p>
 
 ---
 
-# Welcome to GitHub India ✨ 
+# Welcome to GitHub India 🇮🇳
 
 In this repo, you can find resources and information for the developer community in India.
 
  * [Open Source](#--open-source)
+     * [GitHub Grants for Open Source](#github-grants-for-open-source) ❇️ 🆕
      * [Projects from India](#projects-from-india)
      * [Resources](#resources)
 * [Developers](#octocat--developers)
@@ -16,9 +17,12 @@ In this repo, you can find resources and information for the developer community
      * [GitHub Stars](#github-stars)
      * [The ReadME Project](#the-readme-project)
 * [Students](#-students)
+     * [Externships](#externships) ❇️ 🆕
      * [Campus Program](#campus-program)
      * [Student Developer Pack](#student-developer-pack)
      * [Campus Experts](#campus-experts)
+* [Startups](#-startups)
+     * [GitHub Accelerate](#github-accelerate) ❇️ 🆕
 * [Events](#-events)
 * [Careers](#-careers)
 * [Let's connect](#-lets-connect)
@@ -30,6 +34,12 @@ In this repo, you can find resources and information for the developer community
 ## 🧑‍💻  Open Source
 
 The open-source ecosystem in India is thriving with many contributors & maintainers from India and open-source projects being built in India. We are here to help developers, contributors and maintainers in their journey towards open-source.
+
+### GitHub Grants for Open Source
+
+At [GitHub Satellite India 2021](https://githubsatellite.com), we announced the GitHub India Grants for Open Source to support the open source community by providing monetary grants to contributors/maintainers, with a total monetary fund of INR 1 crore.
+
+For details about the program, eligibility and application process, [check out the program page](Open%20Source/GRANTS.md)
 
 ### Projects from India
 
@@ -73,6 +83,12 @@ We’re always on the lookout for inspiring developers who passionately dedicate
 
 GitHub Education helps students, teachers, and schools access the tools and events they need to shape the next generation of software development.
 
+### Externships
+
+At [GitHub Satellite India 2021](https://githubsatellite.com), we announced the GitHub Externship program for students.
+
+For details about the program, [check out the program page](Students/EXTERNSHIPS.md)
+
 ### Campus Program
 
 With the GitHub Campus Program, your school will get a package of technical tools, training for faculty members, and support to grow technical communities on campus. Learn more and enroll your school in the [GitHub Campus Program](https://education.github.com/schools)
@@ -84,6 +100,18 @@ There's no substitute for hands-on experience. But for most students, real-world
 ### Campus Experts
 
 Campus Experts are student leaders that strive to build diverse and inclusive spaces to learn skills, share their experiences, and build projects together. They can be found across the globe leading in-person and online conferences, meetups, and hackathons, and maintaining open source projects. Explore and connect with [Campus Experts from India](https://githubcampus.expert/experts)
+
+---
+
+## 📈 Startups
+
+India has a vibrant tech startup community, with many entrepreneurs choosing GitHub to enable innovation. 
+
+### GitHub Accelerate
+
+At [GitHub Satellite India 2021](https://githubsatellite.com), we announced we are extending our GitHub Accelerate Program to startup accelerators, incubators and more venture partners in India, expanding the eligibility of the program to more than 1,000 new startups.
+
+For details about the program, [check out the program page](Startups/ACCELERATE.md)
 
 ---
 
