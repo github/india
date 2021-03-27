@@ -18,4 +18,4 @@ For more details please go to the [program page here](https://github-externships
 
 ## Help / Contact
 
-If you need help / clarifications, please reach out to us at india-externships[at]github.com 
+If you need help / clarifications, please reach out to us [here](india-externships@github.com).
