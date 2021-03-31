@@ -132,7 +132,7 @@ We're always looking for awesome people to come help us make collaboration even 
 
 ## 💬 Let's connect
 
-Stay tuned to what's happening with GitHub India by [following us on Twitter](https://twitter.com/GitHubIndia).
+Stay tuned to what's happening with GitHub India by [following us on Twitter](https://twitter.com/intent/follow?screen_name=GitHubIndia).
 
 You are also welcome to participate in GitHub Discussions on this repository. Please respect the [code of conduct](CODE_OF_CONDUCT.md) and be awesome to each other!
 
