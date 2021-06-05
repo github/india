@@ -9,7 +9,7 @@
 In this repo, you can find resources and information for the developer community in India.
 
  * [Open Source](#--open-source)
-     * [GitHub Grants for Open Source](#github-grants-for-open-source) ❇️ 🆕
+     * [GitHub Grants for Open Source](#github-grants-for-open-source)
      * [Projects from India](#projects-from-india)
      * [Resources](#resources)
 * [Developers](#octocat--developers)
@@ -17,12 +17,12 @@ In this repo, you can find resources and information for the developer community
      * [GitHub Stars](#github-stars)
      * [The ReadME Project](#the-readme-project)
 * [Students](#-students)
-     * [Externships](#externships) ❇️ 🆕
+     * [Externships](#externships)
      * [Campus Program](#campus-program)
      * [Student Developer Pack](#student-developer-pack)
      * [Campus Experts](#campus-experts)
 * [Startups](#-startups)
-     * [GitHub Accelerate](#github-accelerate) ❇️ 🆕
+     * [GitHub Accelerate](#github-accelerate)
 * [Events](#-events)
 * [Careers](#-careers)
 * [Let's connect](#-lets-connect)
@@ -117,10 +117,9 @@ For details about the program, [check out the program page](Startups/ACCELERATE.
 
 ## 📢 Events
 
-Connect with the GitHub community through conferences, meetups and hackathons in India. This repository is a civilized place for connecting with other event attendees, and Hubbers from across the world taking part in the events. By participating in this community, you are agreeing to the same [Terms of Service](https://help.github.com/articles/github-terms-of-service) that apply to GitHub.com, as well as the [GitHub Event Code of Conduct](https://docs.github.com/en/github/site-policy/github-event-code-of-conduct).
+Connect with the GitHub community through conferences, meetups and hackathons in India. 
 
-Our upcoming events:
-- [GitHub Satellite India 2021](https://githubsatellite.com)
+To know about our upcoming events, check out the [GitHub Events](https://github.com/events) page.
 
 ---
 

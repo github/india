@@ -1,3 +1,6 @@
+| 🟢   | In view of the ongoing pandemic, we have extended the applications for GitHub Grants for Open Source until 26th June 2021 |
+|---------------|:------------------------|
+
 <img align="left" height="200" src="assets/grants%402x.png">
 
 # GitHub Grants for Open Source
@@ -29,7 +32,7 @@ While eligible individuals can apply and are considered, not all applicants woul
 
 ## How to apply
 
-[Complete and submit the application form at this URL](https://github.submittable.com/submit/ffb3c7ab-53df-49a3-a7e6-5016ee34bf4a/github-india-grants-for-open-source). Applications close on the **11th of April, 2021**. If you are shortlisted or selected to be awarded a grant, you will be contacted through the details mentioned in your application form.
+[Complete and submit the application form at this URL](https://github.submittable.com/submit/ffb3c7ab-53df-49a3-a7e6-5016ee34bf4a/github-india-grants-for-open-source). Applications close on the **26th of June, 2021**. If you are shortlisted or selected to be awarded a grant, you will be contacted through the details mentioned in your application form.
 
 ## Jury
 
