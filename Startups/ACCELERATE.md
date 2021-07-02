@@ -13,12 +13,13 @@ Startups that are a part of the GitHub Accelerate program get upto US$24,000 of 
 
 Startups* meeting the following qualification criteria are eligible to be a part of GitHub Accelerate: 
 
- 1. Less than 7 years in existence 
- 1. Revenue less than $25M 
- 1. Raised a seed funding or Series A/B/C (or validated equivalent)
+ 1. Less than 5 years in existence 
+ 1. Raised less than $5M in Pre-Seed through Series-B
  1. Part of GitHub Accelerate’s program partners 
 
 **Existing paying customers of GitHub are not eligible for this program*
+
+**Those who have received discounts or offers from GitHub or GitHub's partners are also not eligible*
 
 ## GitHub Accelerate Program Partners
 
