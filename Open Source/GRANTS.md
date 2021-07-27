@@ -40,7 +40,7 @@ The decision of which individuals will be awarded a grant and the grant amount t
 
 The jury members for the GitHub Grants for Open Source program are:
 
-![Jury Members](https://user-images.githubusercontent.com/8726608/112457682-fffcfe80-8d81-11eb-8e82-ebd225cadee8.png)
+![Jury Members](assets/india-os-grants-jury.png)
 
 ## FAQ
 
