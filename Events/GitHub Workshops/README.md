@@ -14,8 +14,8 @@ _Note: Due to Covid-19 restrictions across the country, all the workshops are cu
 
 # Upcoming Events
 
-- [Sep 16, 2021: Collaborative development on cloud using GitHub Codespaces](#sep-9-2021-collaborative-development-on-cloud-using-github-codespaces)
-- [Sep 22, 2021: Automating worflows with GitHub Actions](#sep-22-2021-automating-workflows-with-github-actions)
+- [Sep 16, 2021: Collaborative development on cloud using GitHub Codespaces](#sep-16-2021-collaborative-development-on-cloud-using-github-codespaces)
+- [Sep 22, 2021: Automating workflows with GitHub Actions](#sep-22-2021-automating-workflows-with-github-actions)
 - [Oct 21, 2021: Building your own GitHub Action](#oct-21-2021-building-your-own-github-action)
 
 ---
@@ -30,7 +30,7 @@ In this session, you will learn about what is GitHub Codespaces, how it works, a
 
 ---
 
-### Sep 22, 2021: Automating worflows with GitHub Actions
+### Sep 22, 2021: Automating workflows with GitHub Actions
 
 GitHub Actions is a widely-used software workflow automation feature on GitHub, with world-class CI/CD. In this introductory session, learn about how GitHub Actions can help you automate your repeated tasks in development, and also setup a CI/CD system in place with the help of thousands of extensions.
 
