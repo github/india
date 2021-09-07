@@ -24,6 +24,8 @@ In this repo, you can find resources and information for the developer community
 * [Startups](#-startups)
      * [GitHub Accelerate](#github-accelerate)
 * [Events](#-events)
+     * [GitHub Universe 2021](#github-universe-2021)
+     * [GitHub India Workshops](#github-india-workshops)  
 * [Careers](#-careers)
 * [Let's connect](#-lets-connect)
 * [Contributing](#️-contributing)
@@ -117,9 +119,20 @@ For details about the program, [check out the program page](Startups/ACCELERATE.
 
 ## 📢 Events
 
-Connect with the GitHub community through conferences, meetups and hackathons in India. 
+Connect with the GitHub community through conferences, meetups and hackathons.
 
-To know about our upcoming events, check out the [GitHub Events](https://github.com/events) page.
+### GitHub Universe 2021
+
+Hear from GitHub product teams, community leaders, and peers on the forefront of software development. Join us as we explore the future of software at GitHub Universe: the global developer event. 
+
+Save the date and subscribe for updates on [githubuniverse.com](https://githubuniverse.com)
+
+### GitHub India Workshops
+
+Learn deeper about the GitHub platform and get a hands-on experience about GitHub features in 1-2 hour workshops delivered by the GitHub team. These are free and open to all, with prior registration required.
+
+Check out the schedule of the upcoming sessions and register for them on the [workshops page](Events/GitHub%20Workshops)
+
 
 ---
 
@@ -134,12 +147,6 @@ We're always looking for awesome people to come help us make collaboration even 
 Stay tuned to what's happening with GitHub India by [following us on Twitter](https://twitter.com/GitHubIndia).
 
 You are also welcome to participate in GitHub Discussions on this repository. Please respect the [code of conduct](CODE_OF_CONDUCT.md) and be awesome to each other!
-
----
-
-## 🖊️ Contributing
-
-Contributions are welcome to certain parts of this repository. Check out the [CONTRIBUTING.md](CONTRIBUTING.md) file for further guidelines.
 
 ---
 

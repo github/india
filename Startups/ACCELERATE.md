@@ -41,7 +41,7 @@ Drop a mail to 04surf[at]github.com if your organization is supporting startups 
 
 ## Applying to the program
 
-Fill out the [form](https://github.co/india-startups-apply) to share details about your startup and developer setup.
+Go ahead and [apply](https://accelerate.github.in/) on our website.
 
 We will review your application and get back to you within 72 hours.
 Simple !! 
