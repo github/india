@@ -1,4 +1,4 @@
-| 🔴  | Applications for GitHub Grants for Open Source have been now closed. Thanks for your interest! |
+| 🎉  | [First recipients of GitHub Grants for Open Source have been announced!](https://github.blog/2021-09-12-recipients-open-source-grants-github-sponsors-india/) |
 |---------------|:------------------------|
 
 <img align="left" height="200" src="assets/grants%402x.png">
@@ -41,6 +41,11 @@ The decision of which individuals will be awarded a grant and the grant amount t
 The jury members for the GitHub Grants for Open Source program are:
 
 ![Jury Members](assets/india-os-grants-jury.png)
+
+## Recipients
+
+The first recipients of the Grants are [liyasthomas](https://github.com/liyasthomas), [anuraghazra](https://github.com/anuraghazra), [pranshuchittora](https://github.com/pranshuchittora), [VishalNehra](https://github.com/VishalNehra), [bodhish](https://github.com/bodhish), [shivammathur](https://github.com/shivammathur), [ahiliation](https://github.com/ahiliation), [onprem](https://github.com/onprem), [ptrthomas](https://github.com/ptrthomas), [akshay2211](https://github.com/akshay2211), [snitin315](https://github.com/snitin315), [anikethsaha](https://github.com/anikethsaha), [shikhamis11](https://github.com/shikhamis11), [gautamkrishnar](https://github.com/gautamkrishnar), [gdsoumya](https://github.com/gdsoumya)
+
 
 ## FAQ
 
