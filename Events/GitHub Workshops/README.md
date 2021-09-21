@@ -14,19 +14,8 @@ _Note: Due to Covid-19 restrictions across the country, all the workshops are cu
 
 # Upcoming Events
 
-- [Sep 16, 2021: Collaborative development on cloud using GitHub Codespaces](#sep-16-2021-collaborative-development-on-cloud-using-github-codespaces)
 - [Sep 22, 2021: Automating workflows with GitHub Actions](#sep-22-2021-automating-workflows-with-github-actions)
 - [Oct 21, 2021: Building your own GitHub Action](#oct-21-2021-building-your-own-github-action)
-
----
-
-### Sep 16, 2021: Collaborative development on cloud using GitHub Codespaces
-
-In this session, you will learn about what is GitHub Codespaces, how it works, and how individuals & teams can use it for collaborative development. You will also get a peek into how the GitHub Engineering Team itself uses Codespaces for developing the GitHub platform.
-
-🎙️ _Speaker:_ **MV Karan, Senior Developer Relations Manager, GitHub**
-
-📝 _Registration:_ [Register here](https://calendly.com/ghevents/collaborative-development-on-cloud-with-github-codespaces?month=2021-09)
 
 ---
 
@@ -47,3 +36,16 @@ There are thousands of GitHub Actions on the GitHub Marketplace that you can use
 🎙️ _Speaker:_ **MV Karan, Senior Developer Relations Manager, GitHub**
 
 📝 _Registration:_ [Register here](https://calendly.com/ghevents/building-your-own-github-actions)
+
+---
+
+# Past Recordings
+
+
+### Collaborative development on cloud using GitHub Codespaces
+
+In this session, you will learn about what is GitHub Codespaces, how it works, and how individuals & teams can use it for collaborative development. You will also get a peek into how the GitHub Engineering Team itself uses Codespaces for developing the GitHub platform.
+
+🎙️ _Speaker:_ **MV Karan, Senior Developer Relations Manager, GitHub**
+
+🎥 _Recording:_ [View here](https://github.zoom.us/rec/share/xnsOKzOvaYwhG9KJ4z0n8tSK8mqDP0Rp55Nj2xcw8VbGeMGpyKnrvcGS_Kup3o6c.SE-GsZB-C0aYpJAQ) (Access Passcode: `VUw?C2bg`)
