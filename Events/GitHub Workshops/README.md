@@ -15,6 +15,7 @@ _Note: Due to Covid-19 restrictions across the country, all the workshops are cu
 # Upcoming Events
 
 - [Sep 22, 2021: Automating workflows with GitHub Actions](#sep-22-2021-automating-workflows-with-github-actions)
+- [Oct 6, 2021: Hands On Workshop: CI/CD with GitHub Actions](#oct-6-2021-hands-on-workshop-cicd-with-github-actions)
 - [Oct 21, 2021: Building your own GitHub Action](#oct-21-2021-building-your-own-github-action)
 
 ---
@@ -26,6 +27,18 @@ GitHub Actions is a widely-used software workflow automation feature on GitHub, 
 🎙️ _Speaker:_ **Gandhali Samant, Director - Developer Ecosystem & Market Engagement, GitHub**
 
 📝 _Registration:_ [Register here](https://calendly.com/ghevents/automating-workflows-with-github-actions)
+
+---
+
+### Oct 6, 2021: Hands On Workshop: CI/CD with GitHub Actions
+
+GitHub Actions helps you automate, customize, and execute your software development workflows right within your GitHub repository. In this intermediate-level workshop, we will dive deep into how you can use Actions for your CI/CD pipelines. We will also provide best practices for using Actions within your software automation workflows.
+
+🎙️ _Speakers:_
+- **Chaitanya Sharma, Staff Software Engineer, GitHub**
+- **Kanika Pasrija, Software Engineer II, GitHub**
+
+📝 _Registration:_ [Register here](https://calendly.com/ghevents/hands-on-workshop-ci-cd-with-github-actions?month=2021-10)
 
 ---
 
