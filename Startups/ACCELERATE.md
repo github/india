@@ -6,7 +6,7 @@ India has a vibrant tech startup community, with many entrepreneurs choosing Git
 
 **GitHub Accelerate** is a program for supporting startups in their technological growth by providing access to GitHub’s enterprise products. The program is currently open to startups who are a part of a select partner network consisting of accelerators, incubators & venture funds.
 
-Startups that are a part of the GitHub Accelerate program get upto US$24,000 of GitHub Enterprise Cloud for 2 years. 
+Startups that are a part of the GitHub Accelerate program get 20 seats of GitHub Enterprise for 1 year. 
 
 
 ## Eligibility
