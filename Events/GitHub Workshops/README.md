@@ -14,17 +14,7 @@ _Note: Due to Covid-19 restrictions across the country, all the workshops are cu
 
 # Upcoming Events
 
-- [Oct 21, 2021: Building your own GitHub Action](#oct-21-2021-building-your-own-github-action)
-
----
-
-### Oct 21, 2021: Building your own GitHub Action
-
-There are thousands of GitHub Actions on the GitHub Marketplace that you can use in automating your software workflows. Apart from this, you can also create your own Action for use within your GitHub account or even publish it on the Marketplace! In this session, we will show you how to get started building your own GitHub Action.
-
-🎙️ _Speaker:_ **MV Karan, Senior Developer Relations Manager, GitHub**
-
-📝 _Registration:_ [Register here](https://calendly.com/ghevents/building-your-own-github-actions)
+Upcoming workshops will be announced soon
 
 ---
 
@@ -65,3 +55,19 @@ GitHub Actions helps you automate, customize, and execute your software developm
 - https://bit.ly/ActionsWorkshop-1
 - https://bit.ly/ActionsWorkshop-2
 - https://bit.ly/ActionsWorkshop-3
+
+---
+
+### Building your own GitHub Action
+
+There are thousands of GitHub Actions on the GitHub Marketplace that you can use in automating your software workflows. Apart from this, you can also create your own Action for use within your GitHub account or even publish it on the Marketplace! In this session, we will show you how to get started building your own GitHub Action.
+
+🎙️ _Speaker:_ **MV Karan, Senior Developer Relations Manager, GitHub**
+
+🎥 _Recording:_ [View here](https://github.zoom.us/rec/share/MAMASUrYshQ__C83w5kDNmY0-fZ9bDBIRnjdaWYWRfbSCnfCLHPWV2KixsjykKQ-.0o1YRgi11dw5nser) (Access Passcode: `+%+7zZ4S`)
+
+---
+
+### Code Innovation Series [November, 2021] - Git & GitHub Workshop for students
+
+🎥 _Recording:_ [View here](https://github.zoom.us/rec/share/mNa182GIphTetuUSr5zO2RG_dyJkYaGbmxzgjG91hpZShSA_NVZTWdU4F6yOBYjq.i8NXaPQiMbEBYSls) (Access Passcode: `ZtF5qEX+`)
