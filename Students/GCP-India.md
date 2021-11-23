@@ -27,7 +27,10 @@
 | AttainU                                                                      | http://attainu.com                        | Karnataka         | ❌                                       |
 | B M S College of Engineering                                                 | bmsce.ac.in                               | Karnataka         | ✅                                       |
 | Baba Banda Singh Bahadur Engineering College                                 | http://bbsbec.edu.in/                     | Punjab            | ✅                                       |
-| Bakhtiyarpur College of Engineering                                          | https://bcebakhtiyarpur.org/              | Bihar             | ✅                                       |
+| Bakhtiyarpur College of Engineering                                          | https://bcebakhtiyarpur.org/              | Bihar             | ✅  
+          |
+| Banasthali Vidyapith                                                         |http://www.banasthali.org/                 | Rajasthan         | ✅
+          |
 | Banarsidas Chandiwala Institute of IT                                        | https://www.bciit.ac.in/                  | Delhi             | ✅                                       |
 | Bapuji Institute of Engineering and Technology                               | http://www.bietdvg.edu/                   | Karnataka         | ✅                                       |
 | Bennett University                                                           | bennett.edu.in                            | Uttar Pradesh     | ✅                                       |
