@@ -236,6 +236,7 @@
 | TKM College of Engineering                                                   | tkmce.ac.in                               | Kerala            | ✅                                       |
 | Toc H Institute of Science and Technology                                    | https://tistcochin.edu.in/                | Kerala            | ✅                                       |
 | Tula's Institute                                                             | tulas.edu.in                              | Uttarakhand       | ✅                                       |
+| Thadomal Shahani Engineering College (TSEC)                                  | tsec.edu                                  | Maharashtra       | ✅                                       |
 | Universal College of Engineering                                             | universal.edu.in                          | Maharashtra       | ✅                                       |
 | University Institute of Technology, Burdwan                                  | http://uit.buruniv.ac.in/                 | West Bengal       | ✅                                       |
 | University of Petroleum                                                      | upes.ac.in                                | Uttarakhand       | ✅                                       |
