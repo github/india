@@ -258,3 +258,4 @@
 | Government College of Engineering Srirangam                                  | http://www.gces.edu.in/                   | Tamil Nadu        | ✅                                       |
 | Indian Institute of Technology, Ropar                                        | https://www.iitrpr.ac.in/                 | Punjab            | ✅                                       |
 | PSG College of Technology                                                    | http://www.psgtech.edu/                   | Tamil Nadu        | ✅                                       |
+| NSUT East Campus (Ambedkar Institute Of Advanced Communication Technologies & Research)                                                   | http://aiactr.ac.in/                   | New Delhi        | ✅                                       |
