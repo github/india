@@ -109,6 +109,7 @@
 | Indian Institute of Technology Tirupati                                      | https://iittp.ac.in/                      | Andhra Pradesh    | ✅                                       |
 | Indore Institute of Science and Technology                                   | indoreinstitute.com                       | Madhya Pradesh    | ✅                                       |
 | Institute of Engineering & Technology Devi Ahilya Vishwavidyalaya Indore     | ietdavv.edu.in                            | Madhya Pradesh    | ✅                                       |
+| Institute of Engineering & Technology, Lucknow                               | https://www.ietlucknow.ac.in/             | Uttar Pradesh     | ✅                                       |
 | Institute of Engineering, Chitkara University, Punjab                        | https://www.chitkara.edu.in/              | Punjab            | ✅                                       |
 | Institute of Informatics & Communication                                     | iic.ac.in                                 | DELHI             | ✅                                       |
 | International Institute of Information Technology, Hyderabad                 | iiit.ac.in                                | Telangana         | ✅                                       |
