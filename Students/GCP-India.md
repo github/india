@@ -3,17 +3,17 @@
 
 | University Name                                                              | Website                                   | State/Province    | Eligibility for GitHub India Externship |
 |------------------------------------------------------------------------------|-------------------------------------------|-------------------|-----------------------------------------|
-| ABES Engineering College Ghaziabad                                           | abes.ac.in                                | Uttar Pradesh     | ✅                                       |
-| ABES institute of technology                                                 | abesit.in                                 | Uttar Pradesh     | ✅                                       |
+| ABES Engineering College Ghaziabad                                           | https://www.abes.ac.in/                                | Uttar Pradesh     | ✅                                       |
+| ABES institute of technology                                                 | https://abesit.in/                                 | Uttar Pradesh     | ✅                                       |
 | Acropolis Institute Of Technology And Research                               | https://acropolis.in/                     | Madhya Pradesh    | ✅                                       |
-| Aditya Engineering College                                                   | aec.edu.in                                | Andhra Pradesh    | ✅                                       |
-| Agnel Institute of Technology                                                | aitdgoa.edu.in                            | Goa               | ✅                                       |
-| AISSMS Institute of Information Technology                                   | aissmsioit.org                            | Maharashtra       | ✅                                       |
+| Aditya Engineering College                                                   | https://aec.edu.in/                                | Andhra Pradesh    | ✅                                       |
+| Agnel Institute of Technology                                                | http://aitdgoa.edu.in/                            | Goa               | ✅                                       |
+| AISSMS Institute of Information Technology                                   | http://aissmsioit.org/                            | Maharashtra       | ✅                                       |
 | AltCampus                                                                    | http://altcampus.io                       | Himachal Pradesh  | ❌                                       |
 | Amal Jyothi College of Engineering                                           | http://ajce.in                            | Kerala            | ✅                                       |
 | American Embassy School                                                      | http://aes.ac.in                          | Delhi             | ✅                                       |
 | Amity University Chhattisgarh                                                | https://www.amity.edu/raipur/             | Chhattisgarh      | ✅                                       |
-| Amity University Madhya Pradesh                                              | amity.edu                                 | MADHYA PRADESH    | ✅                                       |
+| Amity University Madhya Pradesh                                              | http://amity.edu/                                 | MADHYA PRADESH    | ✅                                       |
 | Amity University Mumbai                                                      | https://www.amity.edu/mumbai/             | Maharashtra       | ✅                                       |
 | ANAND-ICE                                                                    | https://anandice.ac.in                    | RAJASTHAN         | ✅                                       |
 | Andhra Loyola IET                                                            | http://aliet.ac.in/                       | Andhra Pradesh    | ✅                                       |
