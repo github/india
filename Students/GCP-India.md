@@ -26,6 +26,7 @@
 | Atria Institute of Technology                                                | http://atria.edu                          | Karnataka         | ✅                                       |
 | AttainU                                                                      | http://attainu.com                        | Karnataka         | ❌                                       |
 | B M S College of Engineering                                                 | bmsce.ac.in                               | Karnataka         | ✅                                       |
+| B M L Munjal University                                                      | bmu.edu.in                                | Gurgoan           | ✅                                       |
 | Baba Banda Singh Bahadur Engineering College                                 | http://bbsbec.edu.in/                     | Punjab            | ✅                                       |
 | Bakhtiyarpur College of Engineering                                          | https://bcebakhtiyarpur.org/              | Bihar             | ✅                                       |
 | Banarsidas Chandiwala Institute of IT                                        | https://www.bciit.ac.in/                  | Delhi             | ✅                                       |
