@@ -30,7 +30,7 @@
 | Bakhtiyarpur College of Engineering                                          | https://bcebakhtiyarpur.org/              | Bihar             | ✅                                       |
 | Banarsidas Chandiwala Institute of IT                                        | https://www.bciit.ac.in/                  | Delhi             | ✅                                       |
 | Bapuji Institute of Engineering and Technology                               | http://www.bietdvg.edu/                   | Karnataka         | ✅                                       |
-| Bennett University                                                           | bennett.edu.in                            | Uttar Pradesh     | ✅                                       |
+| Bennett University                                                           | http://www.bennett.edu.in                 | Uttar Pradesh     | ✅                                       |
 | BHAGALPUR COLLEGE OF ENGINEERING                                             | https://www.bcebhagalpur.ac.in/           | Bihar             | ✅                                       |
 | Bhagwan Parshuram Institute of Technology (BPIT)                             | bpitindia.com                             | Delhi             | ✅                                       |
 | Bharati Vidyapeeth's COE, KOP                                                | http://coekolhapur.bharatividyapeeth.edu/ | Maharashtra       | ✅                                       |
