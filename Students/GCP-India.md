@@ -138,6 +138,7 @@
 | Kumaraguru Institutions (KCLAS)                                              | https://www.kclas.ac.in/                  | Tamil Nadu        | ✅                                       |
 | Maharaja Agrasen Institute of Technology                                     | https://www.mait.ac.in/                   | Delhi             | ✅                                       |
 | Maharaja Institute of Technology Mysore                                      | http://mitmysore.in                       | KARNATAKA         | ✅                                       |
+| Maharaja Surajmal Institute of Technology                                    | https://www.msit.in/                   | Delhi             | ✅                                       |
 | Mahendra College of Engineering                                              | mahendracollege.com                       | Tamil Nadu        | ✅                                       |
 | Malaviya National Institute of Technology Jaipur                             | mnit.ac.in                                | Rajasthan         | ✅                                       |
 | Manav Rachna International Institute of Research and Studies                 | manavrachna.edu.in                        | Haryana           | ✅                                       |
