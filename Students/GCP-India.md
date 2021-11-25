@@ -72,10 +72,10 @@
 | Dr. J. J. Magdum college of engineering                                      | https://www.jjmcoe.ac.in/                 | Maharashtra       | ✅                                       |
 | Dr. Subhash Technical Campus                                                 | https://www.drsubhashtech.edu.in/         | Gujarat           | ✅                                       |
 | Dwarkadas J. Sanghvi College of Engineering                                  | djsce.ac.in                               | Maharashtra       | ✅                                       |
-| Fr C Rodrigues College of Engineering, Bandra                                | fragnel.edu.in                            | Maharashtra       | ✅                                       |
-| Fr. C. Rodrigues Institute of Technology                                     | fcrit.ac.in                               | Maharashtra       | ✅                                       |
+| Fr C Rodrigues College of Engineering, Bandra                                | http://www.frcrce.ac.in                           | Maharashtra       | ✅                                       |
+| Fr. C. Rodrigues Institute of Technology                                     | https://fcrit.ac.in                       | Maharashtra       | ✅                                       |
 | G H Patel College of Engineering                                             | gcet.ac.in                                | Gujarat           | ✅                                       |
-| G H Raisoni College of Engineering and Management Pune                       | raisoni.net                               | Maharashtra       | ✅                                       |
+| G H Raisoni College of Engineering and Management Pune                       | https://ghrcem.raisoni.net                | Maharashtra       | ✅                                       |
 | G L Bajaj Group of Institutions                                              | https://www.glbajajgroup.org/             | Uttar Pradesh     | ✅                                       |
 | G Pulla Reddy Engineering College                                            | https://www.gprec.ac.in/                  | Andhra Pradesh    | ✅                                       |
 | Galgotias University                                                         | galgotiasuniversity.edu.in                | Uttar Pradesh     | ✅                                       |
@@ -88,7 +88,7 @@
 | Government Engineering College, PATAN                                        | http://www.gecpt.cteguj.in/               | Gujarat           | ✅                                       |
 | Government Model Engineering College                                         | http://mec.ac.in/                         | Kerala            | ✅                                       |
 | Govind Ballabh Pant Institute of Engineering & Technology-GBPIET             | http://gbpec.ac.in/                       | Uttarakhand       | ✅                                       |
-| Graphic Era Deemed to be University                                          | geu.ac.in                                 | Uttarakhand       | ✅                                       |
+| Graphic Era Deemed to be University                                          | https://www.geu.ac.in                     | Uttarakhand       | ✅                                       |
 | Guru Nanak College                                                           | https://gurunanakcollege.edu.in/          | Tamil Nadu        | ✅                                       |
 | Guru Nanak Dev Engineering College                                           | http://www.gndec.ac.in/                   | Punjab            | ✅                                       |
 | Guru Nanak Institutions                                                      | gniindia.org                              | Telangana         | ✅                                       |
@@ -99,19 +99,19 @@
 | HMR Institute of Technology                                                  | https://www.hmritm.ac.in/                 | Delhi             | ✅                                       |
 | IIIT Bangalore                                                               | http://iiitb.ac.in                        | Karnataka         | ✅                                       |
 | IIMT COLLEGE OF ENGINEERING, GREATER NOIDA                                   | http://www.iimtindia.net/                 | Uttar Pradesh     | ✅                                       |
-| IIT Guwahati                                                                 | iitg.ac.in                                | Assam             | ✅                                       |
+| IIT Guwahati                                                                 | https://www.iitg.ac.in                    | Assam             | ✅                                       |
 | IMPS College of Engineering and Technology                                   | https://impscet.net/                      | West Bengal       | ✅                                       |
 | IMS Engineering College                                                      | imsec.ac.in                               | Uttar Pradesh     | ✅                                       |
 | Indian Institute of Information Technology Guwahati                          | http://www.iiitg.ac.in/                   | Assam             | ✅                                       |
 | INDIAN INSTITUTE OF INFORMATION TECHNOLOGY KALYANI                           | http://iiitkalyani.ac.in/                 | West Bengal       | ✅                                       |
 | Indian Institute of Information Technology, Surat                            | http://www.iiitsurat.ac.in/               | Gujarat           | ✅                                       |
-| Indian Institute of Technology Goa                                           | iitgoa.ac.in                              | Goa               | ✅                                       |
+| Indian Institute of Technology Goa                                           | https://www.iitgoa.ac.in                  | Goa               | ✅                                       |
 | Indian Institute of Technology Tirupati                                      | https://iittp.ac.in/                      | Andhra Pradesh    | ✅                                       |
 | Indore Institute of Science and Technology                                   | indoreinstitute.com                       | Madhya Pradesh    | ✅                                       |
 | Institute of Engineering & Technology Devi Ahilya Vishwavidyalaya Indore     | ietdavv.edu.in                            | Madhya Pradesh    | ✅                                       |
 | Institute of Engineering, Chitkara University, Punjab                        | https://www.chitkara.edu.in/              | Punjab            | ✅                                       |
-| Institute of Informatics & Communication                                     | iic.ac.in                                 | DELHI             | ✅                                       |
-| International Institute of Information Technology, Hyderabad                 | iiit.ac.in                                | Telangana         | ✅                                       |
+| Institute of Informatics & Communication                                     | https://www.iic.ac.in                     | DELHI             | ✅                                       |
+| International Institute of Information Technology, Hyderabad                 | https://www.iiit.ac.in                    | Telangana         | ✅                                       |
 | ITS Engineering College                                                      | https://www.itsengg.edu.in/               | Uttar Pradesh     | ✅                                       |
 | Jafari B.C.A. College                                                        | maktabahjafariyah.org                     | Gujarat           | ✅                                       |
 | JECRC University                                                             | https://jecrcuniversity.edu.in/           | Rajasthan         | ✅                                       |
@@ -121,11 +121,11 @@
 | Jyothy Institue of Technology                                                | jyothyit.ac.in                            | Karnataka         | ✅                                       |
 | K J Somaiya College of Engineering                                           | https://kjsce.somaiya.edu/en              | Maharashtra       | ✅                                       |
 | K L University                                                               | kluniversity.in                           | Andhra Pradesh    | ✅                                       |
-| Kalinga Institute of Industrial Technology (KIIT) Deemed to be University    | kiit.ac.in                                | Odisha            | ✅                                       |
+| Kalinga Institute of Industrial Technology (KIIT) Deemed to be University    | https://www.kiit.ac.in                    | Odisha            | ✅                                       |
 | Kalyani Government Engineering College                                       | kgec.edu.in                               | West Bengal       | ✅                                       |
 | Kamaraj College of Engineering - GHE                                         | http://kamarajengg.edu.in/                | Tamil Nadu        | ✅                                       |
 | Kammavari Sangha Institute of Technology                                     | http://ksit.edu.in                        | Karnataka         | ✅                                       |
-| KANPUR INSTITUTE OF TECHNOLOGY                                               | kit.ac.in                                 | Uttar Pradesh     | ✅                                       |
+| KANPUR INSTITUTE OF TECHNOLOGY                                               | https://kit.ac.in/kit/                    | Uttar Pradesh     | ✅                                       |
 | Karpagam Institute of Technology                                             | http://karpagamtech.ac.in                 | Tamil Nadu        | ✅                                       |
 | Karunya University                                                           | http://karunya.edu                        | Tamil Nadu        | ✅                                       |
 | KLE Institute of Technology                                                  | https://kleit.ac.in/                      | Karnataka         | ✅                                       |
@@ -139,8 +139,8 @@
 | Maharaja Agrasen Institute of Technology                                     | https://www.mait.ac.in/                   | Delhi             | ✅                                       |
 | Maharaja Institute of Technology Mysore                                      | http://mitmysore.in                       | KARNATAKA         | ✅                                       |
 | Mahendra College of Engineering                                              | mahendracollege.com                       | Tamil Nadu        | ✅                                       |
-| Malaviya National Institute of Technology Jaipur                             | mnit.ac.in                                | Rajasthan         | ✅                                       |
-| Manav Rachna International Institute of Research and Studies                 | manavrachna.edu.in                        | Haryana           | ✅                                       |
+| Malaviya National Institute of Technology Jaipur                             | http://www.mnit.ac.in                     | Rajasthan         | ✅                                       |
+| Manav Rachna International Institute of Research and Studies                 | https://manavrachna.edu.in                | Haryana           | ✅                                       |
 | Mangalore Institute of Technology                                            | http://mite.ac.in/                        | Karnataka         | ✅                                       |
 | Manipal Institute of Technology                                              | https://manipal.edu/                      | Karnataka         | ✅                                       |
 | Manipal University Jaipur                                                    | https://jaipur.manipal.edu                | Rajasthan         | ✅                                       |
