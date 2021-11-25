@@ -95,6 +95,7 @@
 | GVM Institute of Technology and Management                                   | http://www.gvmitm.edu.in/                 | Haryana           | ✅                                       |
 | Gyan Ganga Institute of Technology                                           | ggits.org                                 | Madhya Pradesh    | ✅                                       |
 | Heritage Xperiential Learning School                                         | https://www.heritagexperiential.org/      | Haryana           | ❌                                       |
+| Heritage Institute of Technology                                             | https://www.heritageit.edu/               | West Bengal       | ✅                                       |
 | Himgiri Zee University                                                       | https://www.hzu.edu.in/                   | Uttarakhand       | ✅                                       |
 | HMR Institute of Technology                                                  | https://www.hmritm.ac.in/                 | Delhi             | ✅                                       |
 | IIIT Bangalore                                                               | http://iiitb.ac.in                        | Karnataka         | ✅                                       |
