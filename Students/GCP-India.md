@@ -258,3 +258,4 @@
 | Government College of Engineering Srirangam                                  | http://www.gces.edu.in/                   | Tamil Nadu        | ✅                                       |
 | Indian Institute of Technology, Ropar                                        | https://www.iitrpr.ac.in/                 | Punjab            | ✅                                       |
 | PSG College of Technology                                                    | http://www.psgtech.edu/                   | Tamil Nadu        | ✅                                       |
+| Indian Institute of Technology, Delhi                                        | https://home.iitd.ac.in/                  | Delhi             | ✅                                        
