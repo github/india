@@ -14,7 +14,15 @@ _Note: Due to Covid-19 restrictions across the country, all the workshops are cu
 
 # Upcoming Events
 
-Upcoming workshops will be announced soon
+### Dec 16, 2021: Multi-cloud automation with GitHub Actions
+
+GitHub Actions works seamlessly with multiple cloud providers using community-built workflows. In this session, learn how you can interact with and deploy to multiple cloud providers using GitHub Actions and other features like Environments, Reusable workflows, and Open ID Connect.
+
+🎙️ _Speakers:_
+- **Usha N, Senior Product Manager, GitHub**
+- **Karan MV, Senior Developer Relations Manager, GitHub**
+
+📝 _Registration:_ [Register here](https://calendly.com/ghevents/multicloud-automation-with-github-actions)
 
 ---
 
