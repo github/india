@@ -130,7 +130,7 @@ The [GitHub Externship](https://externship.github.in) program is open for studen
 |Invertis University Bareilly                                                 |https://www.invertisuniversity.ac.in/    |Uttar Pradesh    |✅                                      |
 |ITS Engineering College                                                      |https://www.itsengg.edu.in/              |Uttar Pradesh    |✅                                      |
 |Jafari B.C.A. College                                                        |https://maktabahjafariyah.org/           |Gujarat          |✅                                      |
-|JAIN                                                                         |https://www.jainuniversity.ac.in/        |Karnataka        |✅                                      |
+|JAIN (Deemed-to-be University)                                                     |https://www.jainuniversity.ac.in/        |Karnataka        |✅                                      |
 |JECRC University                                                             |https://jecrcuniversity.edu.in/          |Rajasthan        |✅                                      |
 |Jigsaw Academy                                                               |https://www.jigsawacademy.com/           |Karnataka        |❌                                      |
 |JK Lakshmipat University                                                     |https://www.jklu.edu.in/                 |Rajasthan        |✅                                      |
