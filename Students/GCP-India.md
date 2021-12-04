@@ -4,7 +4,7 @@ The [GitHub Externship](https://externship.github.in) program is open for studen
 
 ⚠️ Note: This list is updated every 5 days. Last updated on Dec 2, 2021
 
-|University Name                                                              |Webiste                                  |State/Province   |Eligibility for GitHub India Externship|
+|University Name                                                              |Website                                  |State/Province   |Eligibility for GitHub India Externship|
 |-----------------------------------------------------------------------------|-----------------------------------------|-----------------|---------------------------------------|
 |ABES Engineering College Ghaziabad                                           |https://www.abes.ac.in/                  |Uttar Pradesh    |✅                                      |
 |ABES institute of technology                                                 |http://abesit.in/                        |Uttar Pradesh    |✅                                      |
