@@ -270,6 +270,7 @@ The [GitHub Externship](https://externship.github.in) program is open for studen
 |Vidyalankar School of Information Technology, VSIT                           |https://vsit.edu.in/                     |Maharashtra      |✅                                      |
 |Vidyavardhaka College of Engineering                                         |http://vvce.ac.in                        |Karnataka        |✅                                      |
 |Vidyavardhini's College of Engineering and Technology                        |https://vcet.edu.in/                     |Maharashtra      |✅                                      |
+|Vidya Vikas Institute of Engineering and Technology.                         |https://vidyavikasengineering.com/       |Karnataka        |✅                                      |
 |Vimal Jyothi Engineering College                                             |https://www.vjec.ac.in/                  |Kerala           |✅                                      |
 |Vishnu Institute of Technology                                               |https://vishnu.edu.in/                   |Andhra Pradesh   |✅                                      |
 |Vishwakarma Institute of Information Technology                              |http://www.viit.ac.in/                   |Maharashtra      |✅                                      |
