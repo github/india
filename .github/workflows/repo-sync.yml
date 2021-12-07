@@ -1,0 +1,237 @@
+# The India project has two repositories: github/india (public) and github/india-pvt (private)
+#
+# This GitHub Actions workflow keeps the `main` branch of those two repos in sync.
+#
+# For more details, see https://github.com/repo-sync/repo-sync#how-it-works
+
+
+name: Repo Sync
+
+# **What it does**:
+#  - close-invalid-repo-sync: Close repo sync pull requests not created by GitHubIndiaBot or a Hubber.
+#  - repo-sync: Syncs india and india-pvt repos.
+#------------------------------------------------------------------------------
+# **Why we have it**:
+#  - close-invalid-repo-sync: Another form of spam prevention for the open-source repository.
+#  - repo-sync: To keep the open-source repository up-to-date, while still having an internal repository for sensitive work.
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 */4 * * *' # every 4 hours UTC
+
+jobs:
+
+  # Job: Close repo sync pull requests not created by GitHubIndiaBot or a Hubber.
+  close-invalid-repo-sync:
+    name: Close invalid repo sync PRs
+    runs-on: ubuntu-latest
+    steps:
+
+      # Step: Find open PRs trying to merge from repo-sync to main branch
+      - name: Find pull request
+        if: ${{ github.repository == 'github/india' }}
+        uses: juliangruber/find-pull-request-action@db875662766249c049b2dcd85293892d61cb0b51
+        id: find-pull-request
+        with:
+          github-token: ${{ secrets.GITHUBINDIABOT_TOKEN }}
+          branch: repo-sync
+          base: main
+          state: open
+
+      # Step: Close the PR if not created by GitHubIndiaBot or a Hubber
+      - name: Close pull request if unwanted
+        if: ${{ github.repository == 'github/india' && steps.find-pull-request.outputs.number }}
+        uses: actions/github-script@2b34a689ec86a68d8ab9478298f91d5401337b7d
+        with:
+          github-token: ${{ secrets.GITHUBINDIABOT_TOKEN }}
+          script: |
+            const { owner, repo } = context.repo
+            const { data: pr } = await github.pulls.get({
+              owner,
+              repo,
+              pull_number: parseInt(${{ steps.find-pull-request.outputs.number }})
+            })
+            const prCreator = pr.user.login
+            // If the PR creator is the expected account, stop now
+            if (prCreator === 'GitHubIndiaBot') {
+              return
+            }
+            try {
+              await github.teams.getMembershipForUserInOrg({
+                org: 'github',
+                team_slug: 'employees',
+                username: prCreator
+              })
+              // If the PR creator is a GitHub employee, stop now
+              return
+            } catch (err) {
+              // An error will be thrown if the user is not a GitHub employee.
+              // That said, we still want to proceed anyway!
+            }
+            // Close the PR and add the invalid label
+            await github.issues.update({
+              owner,
+              repo,
+              issue_number: pr.number,
+              labels: ['invalid'],
+              state: 'closed'
+            })
+            // Comment on the PR
+            await github.issues.createComment({
+              owner,
+              repo,
+              issue_number: pr.number,
+              body: "Please leave this `repo-sync` branch to the robots!\n\nI'm going to close this pull request now, but feel free to ask any questions in [discussions](https://github.com/github/india/discussions)!"
+            })
+
+  # Job: Sync india and india-pvt repos          
+  repo-sync:
+    needs: close-invalid-repo-sync
+    if: github.repository == 'github/india' || github.repository == 'github/india-pvt'
+    name: Repo Sync
+    runs-on: ubuntu-latest
+    steps:
+
+      # Step: Check out current repo
+      - name: Check out repo
+        uses: actions/checkout@1e204e9a9253d643386038d443f96446fa156a97
+
+      # Step: Setup node on the runner
+      - name: Setup node
+        uses: actions/setup-node@04c56d2f954f1e4c69436aa54cfef261a018f458
+        with:
+          node-version: 16.13.x
+          cache: npm
+          cache-dependency-path: .github/actions-scripts/package-lock.json
+
+      # Step: Install npm dependencies used for auto-merge scripts
+      - name: Install dependencies for actions-scripts
+        working-directory: .github/actions-scripts
+        run: npm ci 
+
+      # Step: Bring the commits from main branch of the other repo to repo-sync
+      # branch of the current repo
+      - name: Sync repo to branch
+        uses: repo-sync/github-sync@3832fe8e2be32372e1b3970bbae8e7079edeec88
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUBINDIABOT_TOKEN }}
+          CI: true
+        with:
+          source_repo: ${{ secrets.SOURCE_REPO }} # https://${access_token}@github.com/github/the-other-repo.git
+          source_branch: main
+          destination_branch: repo-sync
+          github_token: ${{ secrets.GITHUBINDIABOT_TOKEN }}
+
+      # Step: Create PR to merge repo-sync to main branch within current repo
+      - name: Create pull request
+        id: create-pull
+        uses: repo-sync/pull-request@65194d8015be7624d231796ddee1cd52a5023cb3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUBINDIABOT_TOKEN }}
+        with:
+          source_branch: repo-sync
+          destination_branch: main
+          pr_title: 'New Updates'
+          pr_body: "This is an automated pull request to sync updates between the public and private repos.\n\n:robot: This pull request should be merged (not squashed) to preserve continuity across repos, so please let a bot do the merging!"
+          pr_label: automated-reposync-pr
+          github_token: ${{ secrets.GITHUBINDIABOT_TOKEN }}
+          # This will exit 0 if there's no difference between `repo-sync`
+          # and `main`. And if so, no PR will be created.
+          pr_allow_empty: false
+
+      # Step: Once the PR has been created, find the PR for later use
+      - name: Find pull request
+        uses: juliangruber/find-pull-request-action@db875662766249c049b2dcd85293892d61cb0b51
+        id: find-pull-request
+        with:
+          github-token: ${{ secrets.GITHUBINDIABOT_TOKEN }}
+          branch: repo-sync
+          base: main
+          author: GitHubIndiaBot
+          state: open
+
+      # Step: Enable auto-merge for the PR we created before this
+      - name: Enable GitHub auto-merge
+        if: ${{ steps.find-pull-request.outputs.number }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUBINDIABOT_TOKEN }}
+          AUTOMERGE_PR_NUMBER: ${{ steps.find-pull-request.outputs.number }}
+        run: node .github/actions-scripts/enable-automerge.mjs
+
+      # Step: Approve the pull request so it can get merged automatically
+      - name: Approve pull request
+        if: ${{ steps.find-pull-request.outputs.number }}
+        uses: juliangruber/approve-pull-request-action@c530832d4d346c597332e20e03605aa94fa150a8
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          number: ${{ steps.find-pull-request.outputs.number }}
+
+      # Step: Lock the PR in case we get far too much spam
+      - name: Lock conversations
+        if: ${{ github.repository == 'github/india' && steps.find-pull-request.outputs.number }}
+        uses: actions/github-script@2b34a689ec86a68d8ab9478298f91d5401337b7d
+        with:
+          script: |
+            try {
+              await github.issues.lock({
+                ...context.repo,
+                issue_number: parseInt(${{ steps.find-pull-request.outputs.number }}),
+                lock_reason: 'resolved'
+              })
+              console.log('Locked the pull request to prevent spam!')
+            } catch (error) {
+              // Log the error but don't fail the workflow
+              console.error(`Failed to lock the pull request. Error: ${error}`)
+            }
+
+      # Step: There are cases where the branch becomes out-of-date in between 
+      # the time this workflow began and when the pull request is created/
+      # updated. This step will make sure the branch is up-to-date.
+      - name: Update branch
+        if: ${{ steps.find-pull-request.outputs.number }}
+        uses: actions/github-script@2b34a689ec86a68d8ab9478298f91d5401337b7d
+        with:
+          github-token: ${{ secrets.GITHUBINDIABOT_TOKEN }}
+          script: |
+            const mainHeadSha = await github.git.getRef({
+              ...context.repo,
+              ref: 'heads/main'
+            })
+            console.log(`heads/main sha: ${mainHeadSha.data.object.sha}`)
+            const pull = await github.pulls.get({
+              ...context.repo,
+              pull_number: parseInt(${{ steps.find-pull-request.outputs.number }})
+            })
+            console.log(`Pull request base sha: ${pull.data.base.sha}`)
+            if (mainHeadSha.data.object.sha !== pull.data.base.sha || pull.data.mergeable_state === 'behind') {
+              try {
+                const updateBranch = await github.pulls.updateBranch({
+                  ...context.repo,
+                  pull_number: parseInt(${{ steps.find-pull-request.outputs.number }})
+                })
+                console.log(updateBranch.data.message)
+              } catch (error) {
+                // When the head branch is modified an error with status 422 is thrown
+                // We should retry one more time to update the branch
+                if (error.status === 422) {
+                  try {
+                    const updateBranch = await github.pulls.updateBranch({
+                      ...context.repo,
+                      pull_number: parseInt(${{ steps.find-pull-request.outputs.number }})
+                    })
+                    console.log(updateBranch.data.message)
+                  } catch (error) {
+                    // Only retry once. We'll rely on the update branch workflow to update
+                    // this PR in the case of a second failure.
+                    console.log(`Retried updating the branch, but an error occurred: ${error}`)
+                  }
+                } else {
+                  // A failed branch update shouldn't fail this worklow.
+                  console.log(`An error occurred when updating the branch: ${error}`)
+                }
+              }
+            } else {
+              console.log(`Branch is already up-to-date`)
+            }
+    
