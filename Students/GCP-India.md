@@ -2,8 +2,7 @@
 
 The [GitHub Externship](https://externship.github.in) program is open for students from GitHub Campus partner schools only. Institutes which are not part of the program can apply to be part of GitHub Campus Program [here online](https://education.github.com/schools).
 
-⚠️ Note: This list is updated every 3-5 days. Last updated on Dec 9, 2021
-
+⚠️ Note: This list is updated every 3-5 days. Last updated on Dec 16, 2021
 
 |University Name                                                              |Website                                  |State/Province   |Eligibility for GitHub India Externship|
 |-----------------------------------------------------------------------------|-----------------------------------------|-----------------|---------------------------------------|
@@ -20,6 +19,7 @@ The [GitHub Externship](https://externship.github.in) program is open for studen
 |Amity University Chhattisgarh                                                |https://www.amity.edu/raipur/            |Chhattisgarh     |✅                                      |
 |Amity University Madhya Pradesh                                              |https://amity.edu/                       |Madhya Pradesh   |✅                                      |
 |Amity University Mumbai                                                      |https://www.amity.edu/mumbai/            |Maharashtra      |✅                                      |
+|Amrita Vishwa Vidyapeetham                                                   |https://amrita.edu/                      |Kerala           |✅                                      |
 |ANAND-ICE                                                                    |https://anandice.ac.in                   |Rajasthan        |✅                                      |
 |Andhra Loyola IET                                                            |http://aliet.ac.in/                      |Andhra Pradesh   |✅                                      |
 |Anurag University                                                            |https://anurag.edu.in/                   |Telangana        |✅                                      |
@@ -36,12 +36,14 @@ The [GitHub Externship](https://externship.github.in) program is open for studen
 |Babasaheb Bhimrao Ambedkar University                                        |http://www.bbau.ac.in/                   |Uttar Pradesh    |✅                                      |
 |Bakhtiyarpur College of Engineering                                          |https://bcebakhtiyarpur.org/             |Bihar            |✅                                      |
 |Banarsidas Chandiwala Institute of IT                                        |https://www.bciit.ac.in/                 |Delhi            |✅                                      |
+|Bangalore Institute of Technology (BIT)                                      |https://bit-bangalore.edu.in/            |Karnataka        |✅                                      |
 |Bannari Amman Institute of Technology                                        |http://bitsathy.ac.in/                   |Tamil Nadu       |✅                                      |
 |Bapuji Institute of Engineering and Technology                               |http://www.bietdvg.edu/                  |Karnataka        |✅                                      |
 |Bennett University                                                           |https://www.bennett.edu.in/              |Uttar Pradesh    |✅                                      |
 |Bhagalpur College of Engineering                                             |https://www.bcebhagalpur.ac.in/          |Bihar            |✅                                      |
 |Bhagwan Parshuram Institute of Technology (BPIT)                             |https://www.bpitindia.com/               |Delhi            |✅                                      |
 |Bharati Vidyapeeth's COE, KOP                                                |http://coekolhapur.bharatividyapeeth.edu/|Maharashtra      |✅                                      |
+|Bharati Vidyapeeth's College of Engineering, New Delhi                       |https://www.bvcoend.ac.in/               |Delhi            |✅                                      |
 |Bhilai Institute of Technology Durg                                          |http://www.bitdurg.ac.in/                |Chhattisgarh     |✅                                      |
 |Birla Institute of Technology & Science, Pilani                              |https://www.bits-pilani.ac.in/           |Rajasthan        |✅                                      |
 |BITS, Pilani K K Birla Goa                                                   |https://universe.bits-pilani.ac.in/Goa/  |Goa              |✅                                      |
@@ -86,6 +88,7 @@ The [GitHub Externship](https://externship.github.in) program is open for studen
 |Dr. Sudhir Chandra Sur Institute of Technology                               |https://www.surtech.edu.in/              |West Bengal      |✅                                      |
 |Dwarkadas J. Sanghvi College of Engineering                                  |http://djsce.ac.in/                      |Maharashtra      |✅                                      |
 |DY Patil Institute of Master of Computer Applications and Management         |https://www.dypimca.ac.in                |Maharashtra      |✅                                      |
+|Er. Perumal Manimekalai College Of Engg                                      |http://www.pmctech.org/                  |Tamil Nadu       |✅                                      |
 |Fr C Rodrigues College of Engineering, Bandra                                |http://fragnel.edu.in/                   |Maharashtra      |✅                                      |
 |Fr. C. Rodrigues Institute of Technology                                     |http://fcrit.ac.in/                      |Maharashtra      |✅                                      |
 |G H Patel College of Engineering                                             |https://www.gcet.ac.in/                  |Gujarat          |✅                                      |
@@ -110,6 +113,7 @@ The [GitHub Externship](https://externship.github.in) program is open for studen
 |Guru Nanak Institutions                                                      |https://www.gniindia.org/                |Telangana        |✅                                      |
 |GVM Institute of Technology and Management                                   |http://www.gvmitm.edu.in/                |Haryana          |✅                                      |
 |Gyan Ganga Institute of Technology                                           |https://ggits.org/                       |Madhya Pradesh   |✅                                      |
+|Haldia Institute of Technology                                               |http://www.hithaldia.in/                 |West Bengal      |✅                                      |
 |Heritage Institute of Technology, Kolkata                                    |https://heritageit.edu/                  |West Bengal      |✅                                      |
 |Heritage Xperiential Learning School                                         |https://www.heritagexperiential.org/     |Haryana          |❌                                      |
 |Himgiri Zee University                                                       |https://www.hzu.edu.in/                  |Uttarakhand      |✅                                      |
@@ -128,6 +132,7 @@ The [GitHub Externship](https://externship.github.in) program is open for studen
 |Indian Institute of Technology, Ropar                                        |https://www.iitrpr.ac.in/                |Punjab           |✅                                      |
 |Indore Institute of Science and Technology                                   |https://indoreinstitute.com/             |Madhya Pradesh   |✅                                      |
 |Institute of Engineering & Technology Devi Ahilya Vishwavidyalaya Indore     |http://ietdavv.edu.in/                   |Madhya Pradesh   |✅                                      |
+|Institute of Engineering MET                                                 |https://metbhujbalknowledgecity.ac.in/   |Maharastra       |✅                                      |
 |Institute of Engineering, Chitkara University, Punjab                        |https://www.chitkara.edu.in/             |Punjab           |✅                                      |
 |Institute of Informatics & Communication                                     |https://iic.ac.in/                       |DELHI            |✅                                      |
 |International Institute of Information Technology, Hyderabad                 |https://www.iiit.ac.in/                  |Telangana        |✅                                      |
@@ -163,6 +168,7 @@ The [GitHub Externship](https://externship.github.in) program is open for studen
 |KSR College Of Engineering                                                   |http://ksrce.ac.in/                      |Tamil Nadu       |✅                                      |
 |Kumaraguru College of Technology                                             |https://www.kct.ac.in/                   |Tamil Nadu       |✅                                      |
 |Kumaraguru Institutions (KCLAS)                                              |https://www.kclas.ac.in/                 |Tamil Nadu       |✅                                      |
+|Lokmanya Tilak College of Engineering                                        |https://www.ltce.in/                     |Maharashtra      |✅                                      |
 |Lovely Professional University, India                                        |http://lpu.in/                           |Punjab           |✅                                      |
 |Madhav Institute of Technology                                               |http://www.mitsgwalior.in/               |Madhya Pradesh   |✅                                      |
 |Maharaja Agrasen Institute of Technology                                     |https://www.mait.ac.in/                  |Delhi            |✅                                      |
@@ -240,6 +246,7 @@ The [GitHub Externship](https://externship.github.in) program is open for studen
 |Shree Siddheshwar Womens College of Engineering                              |http://www.sswcoe.edu.in/                |Maharashtra      |✅                                      |
 |Shree Swami Atmanand Saraswati Institute of Technology                       |https://ssasit.ac.in/                    |Gujarat          |✅                                      |
 |Shri Govindram Seksaria Institute of Technology and Science, Indore          |http://www.sgsits.ac.in/                 |Madhya Pradesh   |✅                                      |
+|Shri Guru Gobind Singhji Institute of Engineering and Technology             |http://sggs.ac.in/                       |Maharashtra      |✅                                      |
 |Shri Shankaracharya Institute of Professional Management                     |https://ssipmt.com/                      |Chhattisgarh     |✅                                      |
 |Shri Shankaracharya Technical Campus                                         |https://sstc.ac.in/                      |Chhattisgarh     |✅                                      |
 |Siddaganga Institute of Technology                                           |http://www.sit.ac.in/                    |Karnataka        |✅                                      |
@@ -254,6 +261,7 @@ The [GitHub Externship](https://externship.github.in) program is open for studen
 |SreeVidyanikethan Engineering College                                        |https://www.svec.education/              |Andhra Pradesh   |✅                                      |
 |Sri Manakula Vinayagar Engineering College                                   |https://smvec.ac.in/                     |Pondicherry      |✅                                      |
 |Sri Venkateshwara College of Engineering                                     |https://svcengg.edu.in/                  |Karnataka        |✅                                      |
+|SRI VENKATESWARAA COLLEGE OF TECHNOLOGY                                      |http://svct.edu.in/                      |Tamil Nadu       |✅                                      |
 |Srichaitanya college                                                         |https://srichaitanyacollege.in/          |Maharashtra      |✅                                      |
 |Srinivas Institute of Technology (SIT)                                       |https://www.sitmng.ac.in/                |KARNATAKA        |✅                                      |
 |Srinivasa Ramanujan Institute of Technology                                  |http://srit.ac.in/                       |Andhra Pradesh   |✅                                      |
@@ -273,6 +281,7 @@ The [GitHub Externship](https://externship.github.in) program is open for studen
 |The Assam Royal Global University                                            |https://rgu.ac/                          |Assam            |✅                                      |
 |The Hacking School                                                           |http://thehackingschool.com              |Telangana        |❌                                      |
 |The Maharaja Sayajirao University of Baroda                                  |https://msubaroda.ac.in/                 |Gujarat          |✅                                      |
+|The National Institute of Engineering                                        |http://www.nie.ac.in/                    |Karnataka        |✅                                      |
 |The Northcap University                                                      |https://www.ncuindia.edu/                |Haryana          |✅                                      |
 |TKM College of Engineering                                                   |http://tkmce.ac.in/                      |Kerala           |✅                                      |
 |Toc H Institute of Science and Technology                                    |https://tistcochin.edu.in/               |Kerala           |✅                                      |
