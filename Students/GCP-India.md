@@ -126,11 +126,13 @@ The [GitHub Externship](https://externship.github.in) program is open for studen
 |Indian Institute of Information Technology Guwahati                          |http://www.iiitg.ac.in/                  |Assam            |✅                                      |
 |INDIAN INSTITUTE OF INFORMATION TECHNOLOGY KALYANI                           |http://iiitkalyani.ac.in/                |West Bengal      |✅                                      |
 |Indian Institute of Information Technology, Surat                            |http://www.iiitsurat.ac.in/              |Gujarat          |✅                                      |
+|Indian Institute of Information Technology, Vadodara                         |http://iiitvadodara.ac.in/index.php      |Gujarat          |✅                                      |
 |Indian Institute of Technology Goa                                           |http://iitgoa.ac.in/                     |Goa              |✅                                      |
 |Indian Institute of Technology Ropar                                         |https://www.iitrpr.ac.in/                |Punjab           |✅                                      |
 |Indian Institute of Technology Tirupati                                      |https://iittp.ac.in/                     |Andhra Pradesh   |✅                                      |
 |Indian Institute of Technology, Ropar                                        |https://www.iitrpr.ac.in/                |Punjab           |✅                                      |
 |Indore Institute of Science and Technology                                   |https://indoreinstitute.com/             |Madhya Pradesh   |✅                                      |
+|Institute of Advanced Research                                               |https://iar.ac.in/                       |Gujarat          |✅                                      |
 |Institute of Engineering & Technology Devi Ahilya Vishwavidyalaya Indore     |http://ietdavv.edu.in/                   |Madhya Pradesh   |✅                                      |
 |Institute of Engineering MET                                                 |https://metbhujbalknowledgecity.ac.in/   |Maharastra       |✅                                      |
 |Institute of Engineering, Chitkara University, Punjab                        |https://www.chitkara.edu.in/             |Punjab           |✅                                      |
@@ -168,6 +170,7 @@ The [GitHub Externship](https://externship.github.in) program is open for studen
 |KSR College Of Engineering                                                   |http://ksrce.ac.in/                      |Tamil Nadu       |✅                                      |
 |Kumaraguru College of Technology                                             |https://www.kct.ac.in/                   |Tamil Nadu       |✅                                      |
 |Kumaraguru Institutions (KCLAS)                                              |https://www.kclas.ac.in/                 |Tamil Nadu       |✅                                      |
+|L.D. COLLEGE OF ENGINEERING                                                  |http://ldce.ac.in/                       |Gujarat          |✅                                      |
 |Lokmanya Tilak College of Engineering                                        |https://www.ltce.in/                     |Maharashtra      |✅                                      |
 |Lovely Professional University, India                                        |http://lpu.in/                           |Punjab           |✅                                      |
 |Madhav Institute of Technology                                               |http://www.mitsgwalior.in/               |Madhya Pradesh   |✅                                      |
@@ -226,6 +229,7 @@ The [GitHub Externship](https://externship.github.in) program is open for studen
 |Rathnavel Subramaniam College of Arts                                        |http://rvsgroup.com                      |Tamil Nadu       |✅                                      |
 |Rayat-Bahra University                                                       |https://www.rayatbahrauniversity.edu.in/ |Punjab           |✅                                      |
 |RK University                                                                |https://rku.ac.in/                       |Gujarat          |✅                                      |
+|Rustamji Institute of Technology                                             |https://rjit.ac.in/                      |Madhya Pradesh   |✅                                      |
 |Sagar Institute of Science and Technology (SISTec)                           |https://sistec.ac.in/                    |Madhya Pradesh   |✅                                      |
 |Sahyadri College of Engineering                                              |https://sahyadri.edu.in/                 |Karnataka        |✅                                      |
 |Sambhram Institute Of Technology, Bangalore                                  |http://sambhram.org/                     |Karnataka        |✅                                      |
