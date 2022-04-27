@@ -18,11 +18,7 @@ To support this growing community of student developers and to address their nee
 
 Third Year and Forth Year Students that are part of Higher-Ed institutions in India that have signed up for the GitHub Campus Program
 
-For more details please go to the [program page here](https://github-externships.github.io/externship/).
-
-|🌐     | If you're interested in joining as a **Partner Organisation**, in Summer Cohort 2022. Please fill out the [form](https://airtable.com/shrtVtfuZhJNFTY8l) to apply. |
-|---------------|:------------------------|
-
+For more details please go to the [program page here](https://externship.github.in/).
 
 ## Help / Contact
 
