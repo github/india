@@ -1,0 +1,52 @@
+Developer Productivity & Tools:
+  - hoppscotch/hoppscotch
+  - hasura/graphql-engine
+  - openebs/openebs
+  - gluster/glusterfs
+  - spacecloud-io/space-cloud
+  - kadalu/kadalu
+  - devtron-labs/devtron
+  - skytable/skytable
+  - ajeetdsouza/zoxide
+
+Observability:
+  - signoz/signoz
+
+Low-code Tools:
+  - appsmithorg/appsmith
+  - tooljet/tooljet
+  - frappe/frappe
+
+Learning & Education:
+  - pupilfirst/pupilfirst
+  - TheAlgorithms/Python
+  - firstcontributions/first-contributions
+
+UI/UX:
+  - GeekyAnts/NativeBase
+  - CRED-CLUB/synth-android
+  - ParthJadhav/Tkinter-Designer
+  - resuminator/resuminator
+
+Data Science & Engineering:
+  - dr5hn/countries-states-cities-database
+
+Security:
+  - SecurityFTW/cs-suite
+
+Health:
+  - covid19india/covid19india-react
+
+GitHub Power-Ups:
+  - anuraghazra/github-readme-stats
+  - shivammathur/setup-php
+  - gautamkrishnar/blog-post-workflow
+
+Business Software:
+  - frappe/erpnext
+  - chatwoot/chatwoot
+  - bagisto/bagisto
+  - knadh/listmonk
+
+Consumer Software:
+  - kovidgoyal/calibre
