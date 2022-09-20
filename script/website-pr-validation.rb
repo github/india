@@ -4,7 +4,7 @@ require "yaml"
 require "json"
 
 CLIENT = Octokit::Client.new(:access_token => ENV["PAT"])
-REPOSITORY="github/india-test"
+REPOSITORY="github/india"
 BASE_PATH = "website/data/open-source"
 PR_ID = ENV["PR_ID"]
 
