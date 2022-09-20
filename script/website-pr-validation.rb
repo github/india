@@ -2,6 +2,9 @@ require "rubygems"
 require "octokit"
 require "yaml"
 require "json"
+require "logger"
+
+logger = Logger.new(STDOUT)
 
 CLIENT = Octokit::Client.new(:access_token => ENV["PAT"])
 REPOSITORY="github/india-test"
@@ -239,36 +242,29 @@ def checkMaintainersFileChanged
     end
 end
 
-puts "-------------------------------"
-puts "Checking Maintainers..."
+logger.info("Checking Maintainers...")
 checkMaintainersData()
-puts "Maintainers data checked"
-puts "-------------------------------"
-puts "Checking OSS Projects..."
+logger.info("Maintainers data checked")
+logger.info("Checking OSS Projects...")
 checkProjectsData("projects.yml")
-puts "OSS Projects data checked"
-puts "-------------------------------"
-puts "Checking Social Good Projects..."
+logger.info("OSS Projects data checked")
+logger.info("Checking Social Good Projects...")
 checkProjectsData("social-good-projects.yml")
-puts "Social Good Projects data checked"
-puts "-------------------------------"
+logger.info("Social Good Projects data checked")
 
-puts "Adding Labels..."
+logger.info("Adding Labels...")
 # Add valid/not valid label if the PR has issue or not
 if $ISSUES_PRESENT
     CLIENT.add_labels_to_an_issue(REPOSITORY, PR_ID, ["githubindia.com", "invalid"])
 else
     CLIENT.add_labels_to_an_issue(REPOSITORY, PR_ID, ["githubindia.com", "valid"])
 end
-puts "Added Labels"
+logger.info("Added Labels")
 
-puts "-------------------------------"
 if MAINTAINERS_FAILED_VALIDATION.length() != 0 || OSSPROJECTS_FAILED_VALIDATION.length() != 0 || SOCIALGOOD_FAILED_VALIDATION.length() != 0
-    puts "Creating Comment"
+    logger.info("Creating Comment")
     makePRComment()
     exit(1)
 end
-puts "-------------------------------"
-
 # Check if the changes are present in maintainers file
 checkMaintainersFileChanged()
