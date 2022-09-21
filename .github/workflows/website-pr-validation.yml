@@ -9,16 +9,16 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout main branch of github/india repo
-        uses: actions/checkout@v3
-        with:
-          ref: main
-          path: ./india-main
       - name: Checkout head branch of PR
         uses: actions/checkout@v3
         with:
           ref: ${{ github.event.pull_request.head.ref }}
           repository: ${{ github.event.pull_request.head.repo.full_name }}
+      - name: Checkout main branch of github/india repo
+        uses: actions/checkout@v3
+        with:
+          ref: main
+          path: ./india-main
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: 3.0.0
