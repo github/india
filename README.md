@@ -25,7 +25,7 @@ In this repo, you can find resources and information for the developer community
      * [GitHub Universe 2022](#github-universe-2022)
 * [Careers](#-careers)
 * [Let's connect](#-lets-connect)
-* [Contributing](#️contributing)
+* [Contributing](#️-contributing)
 * [License](#-license)
 
 ---
