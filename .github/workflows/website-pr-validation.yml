@@ -1,0 +1,35 @@
+name: Validate PR for githubindia.com website
+on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - "website/**"
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.PAT }}
+      - name: Checkout PR branch
+        uses: dawidd6/action-checkout-pr@v1
+        with:
+          pr: ${{ github.event.number }}
+      - name: Checkout main branch
+        uses: actions/checkout@v2
+        with:
+          ref: main
+          path: ./india-main
+          token: ${{ secrets.PAT }}
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.0.0
+      - name: Validate PR
+        run: |
+          gem install octokit
+          ruby india-main/script/website-pr-validation.rb
+        env:
+          PR_ID: ${{ github.event.number }}
+          PAT: ${{ secrets.PAT }}

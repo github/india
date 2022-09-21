@@ -10,25 +10,22 @@ In this repo, you can find resources and information for the developer community
 
  * [Open Source](#--open-source)
      * [GitHub Grants for Open Source](#github-grants-for-open-source)
-     * [Projects from India](#projects-from-india)
      * [Resources](#resources)
 * [Developers](#octocat--developers)
      * [Meetups](#meetups)
      * [GitHub Stars](#github-stars)
      * [The ReadME Project](#the-readme-project)
 * [Students](#-students)
-     * [Externships](#externships)
      * [Campus Program](#campus-program)
      * [Student Developer Pack](#student-developer-pack)
      * [Campus Experts](#campus-experts)
 * [Startups](#-startups)
-     * [GitHub Accelerate](#github-accelerate)
+     * [GitHub for startups](#github-for-startups)
 * [Events](#-events)
-     * [GitHub Universe 2021](#github-universe-2021)
-     * [GitHub India Workshops](#github-india-workshops)  
+     * [GitHub Universe 2022](#github-universe-2022)
 * [Careers](#-careers)
 * [Let's connect](#-lets-connect)
-* [Contributing](#️-contributing)
+* [Contributing](#️contributing)
 * [License](#-license)
 
 ---
@@ -37,17 +34,17 @@ In this repo, you can find resources and information for the developer community
 
 The open-source ecosystem in India is thriving with many contributors & maintainers from India and open-source projects being built in India. We are here to help developers, contributors and maintainers in their journey towards open-source.
 
+### Projects and Maintainers from India
+
+There are many open-source projects that we might be using frequently, but unaware that it's a project that was created in or receiving significant contributions from India. We have collated some of the projects and maintainers from India on the [githubindia.com website](https://githubindia.com)
+
+If you know of any other projects or maintainers from India, feel free to make a [contribution](./CONTRIBUTING.md)
+
 ### GitHub Grants for Open Source
 
 At [GitHub Satellite India 2021](https://githubsatellite.com), we announced the GitHub India Grants for Open Source to support the open source community by providing monetary grants to contributors/maintainers, with a total monetary fund of INR 1 crore.
 
-For details about the program, eligibility and application process, [check out the program page](Open%20Source/GRANTS.md)
-
-### Projects from India
-
-There are many open-source projects that we might be using frequently, but unaware that it's a project that was created in or receiving significant contributions from India. We have collated some of the projects from India in this GitHub Explore Collection - [Made in India](https://github.com/collections/made-in-india)
-
-If you know of any other projects from India, [Suggest an edit](https://github.com/github/explore/edit/main/collections/made-in-india/index.md?source=suggest-edits-made-in-india) and tag any one of the project's maintainers/admin in the comment of the PR.
+For details about the program and the grant recipients, [check out the announcement blog post](https://github.blog/2021-09-12-recipients-open-source-grants-github-sponsors-india/)
 
 
 ### Resources
@@ -75,7 +72,7 @@ If you know an inspiring community leader, [we want to hear about it.](https://s
 
 The ReadME Project is part of GitHub’s ongoing effort to amplify the voices of the developer community. It’s an evolving space to engage with the community and explore the stories, challenges, technology, and culture that surround the world of open source.
 
-Check out the [story of Shikha Mishra](https://github.com/readme/shikha-mishra) from India
+Check out the stories of [Shikha Mishra](https://github.com/readme/shikha-mishra), [Liyas Thomas](https://github.com/readme/stories/liyas-thomas) and [Karthik Iyer](https://github.com/readme/stories/karthik-iyer) from India
 
 We’re always on the lookout for inspiring developers who passionately dedicate themselves to their communities. Know somebody whose story deserves to be told? [Let us know](https://github.com/readme/nominate), and they could end up being featured on The ReadME Project.
 
@@ -84,12 +81,6 @@ We’re always on the lookout for inspiring developers who passionately dedicate
 ## 🧑‍🎓 Students
 
 GitHub Education helps students, teachers, and schools access the tools and events they need to shape the next generation of software development.
-
-### Externships
-
-At [GitHub Satellite India 2021](https://githubsatellite.com), we announced the GitHub Externship program for students.
-
-For details about the program, [check out the program page](Students/EXTERNSHIPS.md)
 
 ### Campus Program
 
@@ -109,11 +100,11 @@ Campus Experts are student leaders that strive to build diverse and inclusive sp
 
 India has a vibrant tech startup community, with many entrepreneurs choosing GitHub to enable innovation. 
 
-### GitHub Accelerate
+### GitHub for Startups
 
-At [GitHub Satellite India 2021](https://githubsatellite.com), we announced we are extending our GitHub Accelerate Program to startup accelerators, incubators and more venture partners in India, expanding the eligibility of the program to more than 1,000 new startups.
+GitHub for Startups program helps startups go from idea to IPO on the world’s best software development platform with free access to GitHub Enterprise
 
-For details about the program, [check out the program page](Startups/ACCELERATE.md)
+For details about the program, [check out startups.github.com](https://startups.github.com)
 
 ---
 
@@ -121,18 +112,11 @@ For details about the program, [check out the program page](Startups/ACCELERATE.
 
 Connect with the GitHub community through conferences, meetups and hackathons.
 
-### GitHub Universe 2021
+### GitHub Universe 2022
 
-Hear from GitHub product teams, community leaders, and peers on the forefront of software development. Join us as we explore the future of software at GitHub Universe: the global developer event. 
+Join us for GitHub's global developer event for cloud, security, community, and AI. Experience it virtually or live from the Yerba Buena Center for the Arts in San Francisco on November 9—10. 
 
 Save the date and subscribe for updates on [githubuniverse.com](https://githubuniverse.com)
-
-### GitHub India Workshops
-
-Learn deeper about the GitHub platform and get a hands-on experience about GitHub features in 1-2 hour workshops delivered by the GitHub team. These are free and open to all, with prior registration required.
-
-Check out the schedule of the upcoming sessions and register for them on the [workshops page](Events/GitHub%20Workshops)
-
 
 ---
 
@@ -150,7 +134,14 @@ You are also welcome to participate in GitHub Discussions on this repository. Pl
 
 ---
 
+## Contributing
+
+Contributions are welcome to certain parts of this repository. For getting started, check out [CONTRIBUTING.md](./CONTRIBUTING.md)
+
+---
+
 ## 📜 License
 
-Content is released under CC0-1.0. 
+Content is released under CC0-1.0. Code is released under MIT License.
+
 When using the GitHub logos, be sure to follow the [GitHub logo guidelines](https://github.com/logos).
