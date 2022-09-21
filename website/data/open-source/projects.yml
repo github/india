@@ -8,6 +8,9 @@ Developer Productivity & Tools:
   - devtron-labs/devtron
   - skytable/skytable
   - ajeetdsouza/zoxide
+  - bytebeamio/rumqtt
+  - bytebeamio/uplink
+  - parseablehq/parseable
 
 Observability:
   - signoz/signoz
