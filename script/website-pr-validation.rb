@@ -114,7 +114,7 @@ end
 
 # Function for validating if the project is valid
 # Returns: Array of failed checks
-def validateProject(data)
+def validateProject(data, isSocialGood)
     fails = []
     # Check if project is private
     if data.private
@@ -184,7 +184,7 @@ def checkProjectsData(fileName)
         for projectName in projectsList[category] do
             begin
                 project = getProject(projectName)
-                issues = validateProject(project)
+                issues = validateProject(project, issueCategory == "socialGoodProjects")
                 if issues.length() != 0
                     preparePRComments(issueCategory, issues, projectName)
                 end
@@ -193,7 +193,7 @@ def checkProjectsData(fileName)
                 if e.response_status == 403
                     waitTillLimitReset()
                     project = getProject(projectName)
-                    issues = validateProject(project)
+                    issues = validateProject(project, issueCategory == "socialGoodProjects")
                     if issues.length() != 0
                         preparePRComments(issueCategory, issues, projectName)
                     end
