@@ -125,7 +125,7 @@ def validateProject(data, isSocialGood)
         fails.push("Project doesn't have a license")
     end
     # Check if project has atleast 100 stars
-    if data.stargazers_count < 100
+    if data.stargazers_count < 100 and !isSocialGood
         fails.push("Project has less than 100 stars")
     end
     return fails
