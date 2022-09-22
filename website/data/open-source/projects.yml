@@ -37,6 +37,9 @@ Security:
 Health:
   - covid19india/covid19india-react
 
+Privacy:
+  - Privado-Inc/privado
+
 GitHub Power-Ups:
   - anuraghazra/github-readme-stats
   - shivammathur/setup-php
