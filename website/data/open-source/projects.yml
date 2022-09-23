@@ -8,6 +8,8 @@ Developer Productivity & Tools:
   - devtron-labs/devtron
   - skytable/skytable
   - ajeetdsouza/zoxide
+  - parseablehq/parseable
+  - mr-karan/doggo
 
 Observability:
   - signoz/signoz
@@ -51,3 +53,4 @@ Business Software:
 
 Consumer Software:
   - kovidgoyal/calibre
+  - TeamAmaze/AmazeFileManager
