@@ -8,6 +8,8 @@ Developer Productivity & Tools:
   - devtron-labs/devtron
   - skytable/skytable
   - ajeetdsouza/zoxide
+  - parseablehq/parseable
+  - mr-karan/doggo
   - bytebeamio/rumqtt
 
 Observability:
@@ -22,6 +24,7 @@ Learning & Education:
   - pupilfirst/pupilfirst
   - TheAlgorithms/Python
   - firstcontributions/first-contributions
+  - CircuitVerse/CircuitVerse
 
 UI/UX:
   - GeekyAnts/NativeBase
@@ -51,3 +54,4 @@ Business Software:
 
 Consumer Software:
   - kovidgoyal/calibre
+  - TeamAmaze/AmazeFileManager
