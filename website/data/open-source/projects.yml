@@ -10,6 +10,7 @@ Developer Productivity & Tools:
   - ajeetdsouza/zoxide
   - parseablehq/parseable
   - mr-karan/doggo
+  - Delta456/box-cli-maker
 
 Observability:
   - signoz/signoz
@@ -54,7 +55,3 @@ Business Software:
 Consumer Software:
   - kovidgoyal/calibre
   - TeamAmaze/AmazeFileManager
-
-Terminal:
-  - Delta456/box-cli-maker
-
