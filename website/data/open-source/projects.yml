@@ -14,6 +14,7 @@ Developer Productivity & Tools:
   - bytebeamio/rumqtt
   - Delta456/box-cli-maker
   - meshery/meshery
+  - nikochiko/autosaved
 
 Observability:
   - signoz/signoz
@@ -37,14 +38,16 @@ UI/UX:
   - resuminator/resuminator
 
 Data Science & Engineering:
+  - activeloopai/Hub
   - dr5hn/countries-states-cities-database
   - winkjs/wink-nlp
 
-Security:
+Security & Privacy:
   - build-trust/ockam
   - SecurityFTW/cs-suite
+  - Privado-Inc/privado
   - boxyhq/jackson
-  
+
 Health:
   - covid19india/covid19india-react
 
@@ -62,3 +65,6 @@ Business Software:
 Consumer Software:
   - kovidgoyal/calibre
   - TeamAmaze/AmazeFileManager
+
+Software Testing:
+  - LambdaTest/test-at-scale
