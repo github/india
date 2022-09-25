@@ -63,3 +63,6 @@ Business Software:
 Consumer Software:
   - kovidgoyal/calibre
   - TeamAmaze/AmazeFileManager
+
+Software Testing:
+  - LambdaTest/test-at-scale
