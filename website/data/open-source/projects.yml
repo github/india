@@ -40,11 +40,12 @@ Data Science & Engineering:
   - dr5hn/countries-states-cities-database
   - winkjs/wink-nlp
 
-Security:
+Security & Privacy:
   - build-trust/ockam
   - SecurityFTW/cs-suite
+  - Privado-Inc/privado
   - boxyhq/jackson
-  
+
 Health:
   - covid19india/covid19india-react
 
