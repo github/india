@@ -8,6 +8,12 @@ Developer Productivity & Tools:
   - devtron-labs/devtron
   - skytable/skytable
   - ajeetdsouza/zoxide
+  - parseablehq/parseable
+  - litmuschaos/litmus
+  - mr-karan/doggo
+  - bytebeamio/rumqtt
+  - Delta456/box-cli-maker
+  - meshery/meshery
 
 Observability:
   - signoz/signoz
@@ -21,6 +27,8 @@ Learning & Education:
   - pupilfirst/pupilfirst
   - TheAlgorithms/Python
   - firstcontributions/first-contributions
+  - CircuitVerse/CircuitVerse
+  - rohitg00/DevOpsCommunity
 
 UI/UX:
   - GeekyAnts/NativeBase
@@ -31,9 +39,13 @@ UI/UX:
 Data Science & Engineering:
   - activeloopai/Hub
   - dr5hn/countries-states-cities-database
+  - winkjs/wink-nlp
 
-Security:
+Security & Privacy:
+  - build-trust/ockam
   - SecurityFTW/cs-suite
+  - Privado-Inc/privado
+  - boxyhq/jackson
 
 Health:
   - covid19india/covid19india-react
@@ -51,3 +63,7 @@ Business Software:
 
 Consumer Software:
   - kovidgoyal/calibre
+  - TeamAmaze/AmazeFileManager
+
+Software Testing:
+  - LambdaTest/test-at-scale
