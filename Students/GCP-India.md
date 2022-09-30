@@ -309,3 +309,4 @@ The [GitHub Externship](https://externship.github.in) program is open for studen
 |Yenepoya Institute of Technology                                             |https://www.yit.edu.in/                  |Karnataka        |✅                                      |
 |Yeshwant Mahavidyalaya                                                       |https://ymw.edu.in/                      |Maharashtra      |✅                                      |
 |Yeshwantrao Chavan College of Engineering                                    |https://www.ycce.edu/                    |Maharashtra      |✅                                      |
+|Government Engineering College Jagdalpur                                     |https://www.gecjdp.ac.in/                |Chhattisgarh     |❌                                      
