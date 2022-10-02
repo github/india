@@ -37,7 +37,6 @@ jobs:
                 check-multi-line-strings: false
               new-lines:
                 type: unix
-              trailing-spaces: disable
               colons:
                 max-spaces-before: 0
                 max-spaces-after: 1
