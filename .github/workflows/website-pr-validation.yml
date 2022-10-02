@@ -26,7 +26,6 @@ jobs:
           strict: true
           file_or_dir: website/**/*.yml
           config_data: |
-            extends: default
             rules:
               empty-lines:
                 max: 1
@@ -38,7 +37,7 @@ jobs:
                 check-multi-line-strings: false
               new-lines:
                 type: unix
-              trailing-spaces: enable
+              trailing-spaces: disable
               colons:
                 max-spaces-before: 0
                 max-spaces-after: 1
