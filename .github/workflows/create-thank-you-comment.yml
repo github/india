@@ -1,3 +1,4 @@
+name: Thank you
 on:
   pull_request:
     types:
@@ -5,7 +6,7 @@ on:
     paths:
       - "website/**"
 jobs:
-  test:
+  comment:
     runs-on: ubuntu-latest
     steps:
       - uses: mshick/add-pr-comment@v1
