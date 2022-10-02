@@ -4,10 +4,10 @@ require "yaml"
 require "json"
 require "logger"
 
-logger = Logger.new(STDOUT)
+@logger = Logger.new(STDOUT)
 
 CLIENT = Octokit::Client.new(:access_token => ENV["PAT"])
-REPOSITORY="github/india"
+REPOSITORY= ENV["INDIA_REPO_NWO"]
 BASE_PATH = "website/data/open-source"
 PR_ID = ENV["PR_ID"]
 
@@ -23,7 +23,7 @@ SOCIALGOOD_FAILED_VALIDATION = []
 # Function to sleep the script for sometime when the API limit is hit
 def waitTillLimitReset
     timeTillReset = CLIENT.rate_limit.resets_in + 5
-    puts "API limit reached while fetching... Sleeping for #{timeTillReset} seconds 😴 brb"
+    @logger.info("API limit reached while fetching... Sleeping for #{timeTillReset} seconds 😴 brb")
     sleep(timeTillReset)
 end
 
@@ -77,7 +77,7 @@ def makePRComment
             end
         end
     end
-    puts comment
+    @logger.info("Commenting: #{comment}")
     CLIENT.add_comment(REPOSITORY, PR_ID, comment)
 end
 
@@ -145,7 +145,7 @@ def checkMaintainersData()
                     preparePRComments("maintainers", issues, maintainerName)
                 end
             rescue => e
-                puts "Error #{e.response_status}"
+                @logger.info("Error #{e.response_status}")
                 if e.response_status == 403
                     waitTillLimitReset()
                     maintainer = getMaintainer(maintainerName)
@@ -154,7 +154,7 @@ def checkMaintainersData()
                         preparePRComments("maintainers", issues, maintainerName)
                     end
                 else
-                    puts "Error on maintainer: #{maintainerName}"
+                    @logger.info("Error on maintainer: #{maintainerName}")
                     preparePRComments("maintainers", ["User with username #{maintainerName} doesn't exist!"], maintainerName)
                 end
             end
@@ -189,7 +189,7 @@ def checkProjectsData(fileName)
                     preparePRComments(issueCategory, issues, projectName)
                 end
             rescue => e
-                puts "Error: #{e.response_status}" 
+                @logger.info("Error: #{e.response_status}")
                 if e.response_status == 403
                     waitTillLimitReset()
                     project = getProject(projectName)
@@ -198,7 +198,7 @@ def checkProjectsData(fileName)
                         preparePRComments(issueCategory, issues, projectName)
                     end
                 else
-                    puts "Error on project: #{projectName}"
+                    @logger.info("Error on project: #{projectName}")
                     preparePRComments(issueCategory, ["Project #{projectName} is either private or doesn't exist!"], projectName)
                 end
             end
@@ -223,7 +223,7 @@ def checkMaintainersFileChanged
     pullRequestDetails = CLIENT.pull_request(REPOSITORY, PR_ID)
     newMaintainers.delete(pullRequestDetails.user.login)
     if newMaintainers.length() > 10
-        puts "More than 10 maintainers added"
+        @logger.info("More than 10 maintainers added")
         CLIENT.add_comment(REPOSITORY, PR_ID, "Cannot add more than 10 maintainers in a single PR")
         exit(1)
     end
@@ -233,36 +233,36 @@ def checkMaintainersFileChanged
         rescue => e
             # PR author cannot add himself as reviewer
             if e.response_status == 422
-                puts "PR author cannot be the reviewer"
+                @logger.info("PR author cannot be the reviewer")
             else
-                puts "ERROR STATUS: #{e.response_status}"
-                puts "An error of type #{e.class} happened, message is #{e.message}"
+                @logger.info("ERROR STATUS: #{e.response_status}")
+                @logger.info("An error of type #{e.class} happened, message is #{e.message}")
             end
         end
     end
 end
 
-logger.info("Checking Maintainers...")
+@logger.info("Checking Maintainers...")
 checkMaintainersData()
-logger.info("Maintainers data checked")
-logger.info("Checking OSS Projects...")
+@logger.info("Maintainers data checked")
+@logger.info("Checking OSS Projects...")
 checkProjectsData("projects.yml")
-logger.info("OSS Projects data checked")
-logger.info("Checking Social Good Projects...")
+@logger.info("OSS Projects data checked")
+@logger.info("Checking Social Good Projects...")
 checkProjectsData("social-good-projects.yml")
-logger.info("Social Good Projects data checked")
+@logger.info("Social Good Projects data checked")
 
-logger.info("Adding Labels...")
+@logger.info("Adding Labels...")
 # Add valid/not valid label if the PR has issue or not
 if $ISSUES_PRESENT
     CLIENT.add_labels_to_an_issue(REPOSITORY, PR_ID, ["githubindia.com", "invalid"])
 else
     CLIENT.add_labels_to_an_issue(REPOSITORY, PR_ID, ["githubindia.com", "valid"])
 end
-logger.info("Added Labels")
+@logger.info("Added Labels")
 
 if MAINTAINERS_FAILED_VALIDATION.length() != 0 || OSSPROJECTS_FAILED_VALIDATION.length() != 0 || SOCIALGOOD_FAILED_VALIDATION.length() != 0
-    logger.info("Creating Comment")
+    @logger.info("Creating Comment")
     makePRComment()
     exit(1)
 end
