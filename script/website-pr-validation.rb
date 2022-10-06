@@ -76,7 +76,7 @@ def createJobSummary
         end
     end
     @logger.info("Summary: #{comment}")
-    File.write(ENV["GITHUB_STEP_SUMMARY", comment])
+    File.write(ENV["GITHUB_STEP_SUMMARY"], comment)
 end
 
 # Function for fetching the details of a maintainer
