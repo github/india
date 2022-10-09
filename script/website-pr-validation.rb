@@ -1,15 +1,13 @@
 require "rubygems"
 require "octokit"
-require "yaml"
 require "json"
 require "logger"
+require "safe_yaml"
 
-@logger = Logger.new(STDOUT)
-
-CLIENT = Octokit::Client.new(:access_token => ENV["PAT"])
+CLIENT = Octokit::Client.new(:access_token => ENV["GITHUB_TOKEN"])
 REPOSITORY= ENV["INDIA_REPO_NWO"]
 BASE_PATH = "website/data/open-source"
-PR_ID = ENV["PR_ID"]
+@logger = Logger.new(STDOUT)
 
 # Flag for checking if the issues are present
 $ISSUES_PRESENT = false
@@ -27,12 +25,12 @@ def waitTillLimitReset
     sleep(timeTillReset)
 end
 
-# Function to preparing the comments to add to the PR if it has any issues
+# Function to prepare the job summary to be added to the PR if it has any issues
 # Params:
 # category: Category of the issue (maintainers/ossProjects/socialGoodProjects)
 # issues: Array of issues present for the PR
 # title: Name of the project/maintainer
-def preparePRComments(category, issues, title)
+def prepareJobSummary(category, issues, title)
     $ISSUES_PRESENT = true
     body = {
         :title => title,
@@ -47,8 +45,8 @@ def preparePRComments(category, issues, title)
     end
 end
 
-# Function to create the comment in the PR
-def makePRComment
+# Function to create job summary
+def createJobSummary
     comment = "PR cannot be merged due to following issues:\n"
     if MAINTAINERS_FAILED_VALIDATION.length() != 0
         comment += "- Maintainers\n"
@@ -77,8 +75,8 @@ def makePRComment
             end
         end
     end
-    @logger.info("Commenting: #{comment}")
-    CLIENT.add_comment(REPOSITORY, PR_ID, comment)
+    @logger.info("Summary: #{comment}")
+    File.write(ENV["GITHUB_STEP_SUMMARY"], comment)
 end
 
 # Function for fetching the details of a maintainer
@@ -114,7 +112,7 @@ end
 
 # Function for validating if the project is valid
 # Returns: Array of failed checks
-def validateProject(data, isSocialGood)
+def validateProject(data, isSocialGood = false)
     fails = []
     # Check if project is private
     if data.private
@@ -125,7 +123,7 @@ def validateProject(data, isSocialGood)
         fails.push("Project doesn't have a license")
     end
     # Check if project has atleast 100 stars
-    if data.stargazers_count < 100 and !isSocialGood
+    if data.stargazers_count < 100 && !isSocialGood
         fails.push("Project has less than 100 stars")
     end
     return fails
@@ -135,7 +133,7 @@ end
 # from the maintainers list at {BASE_PATH}/maintainers.yml
 # and check if the maintainers are valid or not
 def checkMaintainersData()
-    maintainersList = JSON.parse(YAML.load(File.open("#{BASE_PATH}/maintainers.yml")).to_json)
+    maintainersList = JSON.parse(YAML.load(File.open("#{BASE_PATH}/maintainers.yml"), :safe => true).to_json)
     for city in maintainersList.keys do
         for maintainerName in maintainersList[city] do
             begin
@@ -170,7 +168,7 @@ end
 #   - Indicates the file location of the list of projects present
 #   - Values can be either "projects.yml" or "social-good-projects.yml" 
 def checkProjectsData(fileName)
-    projectsList = JSON.parse(YAML.load(File.open("#{BASE_PATH}/#{fileName}")).to_json)
+    projectsList = JSON.parse(YAML.load(File.open("#{BASE_PATH}/#{fileName}"), :safe => true).to_json)
     if fileName == "projects.yml"
         issueCategory = "ossProjects"
     else
@@ -206,65 +204,23 @@ def checkProjectsData(fileName)
     end
 end
 
-# Check if any new maintainer is added
-# If yes -> Add the maintainer as reviewer
-def checkMaintainersFileChanged
-    maintainersListPR = JSON.parse(YAML.load(File.open("#{BASE_PATH}/maintainers.yml")).to_json)
-    maintainersList = JSON.parse(YAML.load(File.open("india-main/#{BASE_PATH}/maintainers.yml")).to_json)
-    maintainersMain = []
-    maintainersPR = []
-    for maintainers in maintainersList.values do
-        maintainersMain += maintainers
-    end
-    for maintainers in maintainersListPR.values do
-        maintainersPR += maintainers
-    end
-    newMaintainers = maintainersPR - maintainersMain
-    pullRequestDetails = CLIENT.pull_request(REPOSITORY, PR_ID)
-    newMaintainers.delete(pullRequestDetails.user.login)
-    if newMaintainers.length() > 10
-        @logger.info("More than 10 maintainers added")
-        CLIENT.add_comment(REPOSITORY, PR_ID, "Cannot add more than 10 maintainers in a single PR")
-        exit(1)
-    end
-    if newMaintainers.length() != 0
-        begin
-            CLIENT.request_pull_request_review(REPOSITORY, PR_ID, reviewers: newMaintainers)
-        rescue => e
-            # PR author cannot add himself as reviewer
-            if e.response_status == 422
-                @logger.info("PR author cannot be the reviewer")
-            else
-                @logger.info("ERROR STATUS: #{e.response_status}")
-                @logger.info("An error of type #{e.class} happened, message is #{e.message}")
-            end
-        end
-    end
-end
-
+@logger.info("-------------------------------")
 @logger.info("Checking Maintainers...")
 checkMaintainersData()
 @logger.info("Maintainers data checked")
+@logger.info("-------------------------------")
 @logger.info("Checking OSS Projects...")
 checkProjectsData("projects.yml")
 @logger.info("OSS Projects data checked")
+@logger.info("-------------------------------")
 @logger.info("Checking Social Good Projects...")
 checkProjectsData("social-good-projects.yml")
 @logger.info("Social Good Projects data checked")
-
-@logger.info("Adding Labels...")
-# Add valid/not valid label if the PR has issue or not
-if $ISSUES_PRESENT
-    CLIENT.add_labels_to_an_issue(REPOSITORY, PR_ID, ["githubindia.com", "invalid"])
-else
-    CLIENT.add_labels_to_an_issue(REPOSITORY, PR_ID, ["githubindia.com", "valid"])
-end
-@logger.info("Added Labels")
+@logger.info("-------------------------------")
 
 if MAINTAINERS_FAILED_VALIDATION.length() != 0 || OSSPROJECTS_FAILED_VALIDATION.length() != 0 || SOCIALGOOD_FAILED_VALIDATION.length() != 0
     @logger.info("Creating Comment")
-    makePRComment()
+    createPRSummary()
     exit(1)
 end
-# Check if the changes are present in maintainers file
-checkMaintainersFileChanged()
+@logger.info("-------------------------------")
