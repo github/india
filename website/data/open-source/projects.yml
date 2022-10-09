@@ -1,3 +1,4 @@
+---
 Developer Productivity & Tools:
   - hoppscotch/hoppscotch
   - hasura/graphql-engine
@@ -15,6 +16,7 @@ Developer Productivity & Tools:
   - Delta456/box-cli-maker
   - meshery/meshery
   - nikochiko/autosaved
+  - Samyak2/toipe
 
 Observability:
   - signoz/signoz
@@ -64,6 +66,7 @@ Business Software:
   - chatwoot/chatwoot
   - bagisto/bagisto
   - knadh/listmonk
+  - chaos-genius/chaos_genius
 
 Consumer Software:
   - kovidgoyal/calibre
