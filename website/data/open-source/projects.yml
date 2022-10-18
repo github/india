@@ -1,3 +1,4 @@
+---
 Developer Productivity & Tools:
   - hoppscotch/hoppscotch
   - hasura/graphql-engine
@@ -15,6 +16,7 @@ Developer Productivity & Tools:
   - Delta456/box-cli-maker
   - meshery/meshery
   - nikochiko/autosaved
+  - Samyak2/toipe
 
 Observability:
   - signoz/signoz
@@ -38,6 +40,7 @@ UI/UX:
   - CRED-CLUB/synth-android
   - ParthJadhav/Tkinter-Designer
   - resuminator/resuminator
+  - hc-oss/react-multi-select-component
 
 Data Science & Engineering:
   - activeloopai/Hub
@@ -58,12 +61,14 @@ GitHub Power-Ups:
   - anuraghazra/github-readme-stats
   - shivammathur/setup-php
   - gautamkrishnar/blog-post-workflow
+  - abhisheknaiidu/awesome-github-profile-readme
 
 Business Software:
   - frappe/erpnext
   - chatwoot/chatwoot
   - bagisto/bagisto
   - knadh/listmonk
+  - chaos-genius/chaos_genius
 
 Consumer Software:
   - kovidgoyal/calibre
