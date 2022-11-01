@@ -1,3 +1,4 @@
+---
 Developer Productivity & Tools:
   - hoppscotch/hoppscotch
   - hasura/graphql-engine
@@ -15,6 +16,8 @@ Developer Productivity & Tools:
   - Delta456/box-cli-maker
   - meshery/meshery
   - nikochiko/autosaved
+  - Samyak2/toipe
+  - mohsinulhaq/react-popper-tooltip
   - tusharsadhwani/zxpy
 
 Observability:
@@ -32,12 +35,14 @@ Learning & Education:
   - CircuitVerse/CircuitVerse
   - rohitg00/DevOpsCommunity
   - reactplay/react-play
+  - saiyam1814/DevOpsRoadmap2022
 
 UI/UX:
   - GeekyAnts/NativeBase
   - CRED-CLUB/synth-android
   - ParthJadhav/Tkinter-Designer
   - resuminator/resuminator
+  - hc-oss/react-multi-select-component
 
 Data Science & Engineering:
   - activeloopai/Hub
@@ -65,6 +70,7 @@ Business Software:
   - chatwoot/chatwoot
   - bagisto/bagisto
   - knadh/listmonk
+  - chaos-genius/chaos_genius
 
 Consumer Software:
   - kovidgoyal/calibre
@@ -73,3 +79,5 @@ Consumer Software:
 Software Testing:
   - LambdaTest/test-at-scale
   - karatelabs/karate
+  - keploy/keploy
+  
