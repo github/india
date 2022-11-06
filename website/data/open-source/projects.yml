@@ -18,6 +18,7 @@ Developer Productivity & Tools:
   - nikochiko/autosaved
   - Samyak2/toipe
   - Susmita-Dey/all-round-calculator
+  - mohsinulhaq/react-popper-tooltip
 
 Observability:
   - signoz/signoz
@@ -34,12 +35,14 @@ Learning & Education:
   - CircuitVerse/CircuitVerse
   - rohitg00/DevOpsCommunity
   - reactplay/react-play
+  - saiyam1814/DevOpsRoadmap2022
 
 UI/UX:
   - GeekyAnts/NativeBase
   - CRED-CLUB/synth-android
   - ParthJadhav/Tkinter-Designer
   - resuminator/resuminator
+  - hc-oss/react-multi-select-component
 
 Data Science & Engineering:
   - activeloopai/Hub
@@ -78,3 +81,5 @@ Consumer Software:
 Software Testing:
   - LambdaTest/test-at-scale
   - karatelabs/karate
+  - keploy/keploy
+  
