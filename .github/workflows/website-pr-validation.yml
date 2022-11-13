@@ -1,31 +1,61 @@
 name: Validate PR for githubindia.com website
 on:
-  pull_request_target:
+  pull_request:
     branches:
       - main
     paths:
       - "website/**"
+
 jobs:
-  build:
+  lint:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout head branch of PR
+      - name: Checkout repo
         uses: actions/checkout@v3
+      - name: Check format of yaml file
+        id: yaml-lint
+        uses: ibiqlik/action-yamllint@v3
         with:
-          ref: ${{ github.event.pull_request.head.ref }}
-          repository: ${{ github.event.pull_request.head.repo.full_name }}
-      - name: Checkout main branch of github/india repo
+          strict: true
+          file_or_dir: website/**/*.yml
+          config_data: |
+            rules:
+              empty-lines:
+                max: 1
+              hyphens:
+                max-spaces-after: 1
+              indentation:
+                spaces: consistent
+                indent-sequences: true
+                check-multi-line-strings: false
+              new-lines:
+                type: unix
+              colons:
+                max-spaces-before: 0
+                max-spaces-after: 1
+              empty-values:
+                forbid-in-block-mappings: true
+              key-duplicates: false
+            format: github
+  validate:
+    runs-on: ubuntu-latest
+    needs: lint
+    steps:
+      - name: Checkout fork
+        uses: actions/checkout@v3
+      - name: Checkout main
         uses: actions/checkout@v3
         with:
           ref: main
+          repository: github/india
           path: ./india-main
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: 3.0.0
       - name: Validate PR
         run: |
-          gem install octokit
+          gem install octokit safe_yaml
           ruby india-main/script/website-pr-validation.rb
         env:
-          PR_ID: ${{ github.event.number }}
-          PAT: ${{ secrets.PAT }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          INDIA_REPO_NWO: ${{ secrets.INDIA_REPO_NWO }}
