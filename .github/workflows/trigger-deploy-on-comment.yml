@@ -1,0 +1,26 @@
+name: Trigger deploy on comment
+on:
+  issue_comment:
+    types: [created]
+jobs:
+  if_merged:
+    if: github.event.issue.pull_request && contains(github.event.comment.body, '/deploy')
+    runs-on: ubuntu-latest
+    steps:
+      - name: User has permission to deploy
+        uses: actions/github-script@v6
+        with:
+          script: |
+            // Check if the user trying to deploy is an authorized user
+            const creator = context.payload.sender.login
+            const authorizedHandles = ["mvkaran", "andreagriffiths11", "pachicodes", "abhinavrajesh"]
+            if(!authorizedHandles.includes(creator.toLowerCase())) {
+              core.setFailed("User not authorized to deploy")
+            }
+      - name: Trigger build
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          repo: ${{ secrets.GITHUBBRASIL_REPO_NWO }}
+          workflow: Trigger build when public PR is merged
+          token: ${{ secrets.PAT }}
+          inputs: '{"pr_number": "${{ github.event.issue.number }}", "creator_username": "${{ github.event.issue.user.login  }}" }'
