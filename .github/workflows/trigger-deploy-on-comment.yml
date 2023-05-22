@@ -13,14 +13,14 @@ jobs:
           script: |
             // Check if the user trying to deploy is an authorized user
             const creator = context.payload.sender.login
-            const authorizedHandles = ["mvkaran", "andreagriffiths11", "pachicodes", "abhinavrajesh"]
+            const authorizedHandles = ["mvkaran", "abhinavrajesh"]
             if(!authorizedHandles.includes(creator.toLowerCase())) {
               core.setFailed("User not authorized to deploy")
             }
       - name: Trigger build
         uses: benc-uk/workflow-dispatch@v1
         with:
-          repo: ${{ secrets.GITHUBBRASIL_REPO_NWO }}
+          repo: ${{ secrets.GITHUBINDIA_REPO_NWO }}
           workflow: Trigger build when public PR is merged
           token: ${{ secrets.PAT }}
           inputs: '{"pr_number": "${{ github.event.issue.number }}", "creator_username": "${{ github.event.issue.user.login  }}" }'
