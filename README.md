@@ -112,9 +112,15 @@ For details about the program, [check out startups.github.com](https://startups.
 
 Connect with the GitHub community through conferences, meetups and hackathons.
 
-### GitHub Universe 2022
+### GitHub Constellation 2024
 
-Join us for GitHub's global developer event for cloud, security, community, and AI. Experience it virtually or live from the Yerba Buena Center for the Arts in San Francisco on November 9—10. 
+Constellation 2024 is GitHub's in-person developer conference celebrating the best of the Indian developer community. In this one day event, learn, share and connect with developers on topics like AI, Collaboration,  Community and Security.
+
+Save the date and check updates on [githubconstellation.com](https://githubconstellation.com)
+
+### GitHub Universe 2024
+
+Join us for GitHub's global developer event for cloud, security, community, and AI. Experience it virtually or live from the Fort Mason in San Francisco on October 29-30, 2024. 
 
 Save the date and subscribe for updates on [githubuniverse.com](https://githubuniverse.com)
 
