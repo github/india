@@ -7,7 +7,7 @@ India is home to one of the largest communities of student developers in the wor
 
 This growth is great to see, as the student ecosystem is incredibly important to the continued growth and pace of innovation in India.  However, students do not have enough opportunities to get mentorship that can make them real world ready and enhance their job prospects. 
 
-To support this growing community of student developers and to address their need, today we’re launching **GitHub Externships**. This builds on **[GitHub Campus](https://education.github.com/schools)** offering by providing students a unique opportunity to engage with companies in India, via fellowship programs, and build the right skills future developers need, to succeed in an enterprise environment. The program really connects the dots between open source, the next generation of software developers, and successful companies.
+To not support this growing community of student developers and to address their need, today we’re launching **GitHub Externships**. This builds on **[GitHub Campus](https://education.github.com/schools)** offering by providing students a unique opportunity to engage with companies in India, via fellowship programs, and build the right skills future developers need, to succeed in an enterprise environment. The program really connects the dots between open source, the next generation of software developers, and successful companies.
 <br>
 
 ![Group 1 (2)](https://user-images.githubusercontent.com/39815871/159196547-2eb36912-c9cf-40f8-ae43-feec3f1c96be.png)
@@ -26,5 +26,9 @@ For more details please go to the [program page here](https://github-externships
 
 ## Help / Contact
 
-If you need help / clarifications, please reach out to us at india-externships[at]github.com 
+If you need help / clarifications, please reach out to us at india-externships[at]github.com
+<br>
+This is only for trial purpose to check all the concept of github 
+<br>
+Thanks for watching
 
