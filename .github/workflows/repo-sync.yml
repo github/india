@@ -31,7 +31,7 @@ jobs:
       # Step: Find open PRs trying to merge from repo-sync to main branch
       - name: Find pull request
         if: ${{ github.repository == 'github/india' }}
-        uses: juliangruber/find-pull-request-action@db875662766249c049b2dcd85293892d61cb0b51
+        uses: juliangruber/find-pull-request-action@92b38d91ef26fd0f47374257f50e78432359a45f
         id: find-pull-request
         with:
           github-token: ${{ secrets.GITHUBINDIABOT_TOKEN }}
@@ -142,7 +142,7 @@ jobs:
 
       # Step: Once the PR has been created, find the PR for later use
       - name: Find pull request
-        uses: juliangruber/find-pull-request-action@db875662766249c049b2dcd85293892d61cb0b51
+        uses: juliangruber/find-pull-request-action@92b38d91ef26fd0f47374257f50e78432359a45f
         id: find-pull-request
         with:
           github-token: ${{ secrets.GITHUBINDIABOT_TOKEN }}
