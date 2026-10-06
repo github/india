@@ -99,7 +99,7 @@ jobs:
 
       # Step: Setup node on the runner
       - name: Setup node
-        uses: actions/setup-node@04c56d2f954f1e4c69436aa54cfef261a018f458
+        uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020
         with:
           node-version: 16.13.x
           cache: npm
