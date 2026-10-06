@@ -95,7 +95,7 @@ jobs:
 
       # Step: Check out current repo
       - name: Check out repo
-        uses: actions/checkout@1e204e9a9253d643386038d443f96446fa156a97
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
 
       # Step: Setup node on the runner
       - name: Setup node
